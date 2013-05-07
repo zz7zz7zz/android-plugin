@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">plugin2</string>
+    <string name="hello_world">我是插件2</string>
+
+</resources>
