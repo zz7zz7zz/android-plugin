@@ -1,0 +1,3 @@
+com.lemon.MainActivity
+com.lemon.plugin.PluginShowActivity
+com.lemon.LemonApp

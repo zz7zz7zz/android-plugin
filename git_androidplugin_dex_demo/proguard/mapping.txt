@@ -1,0 +1,67 @@
+com.lemon.LemonApp -> com.lemon.LemonApp:
+    com.lemon.LemonApp instance -> a
+    void onCreate() -> onCreate
+    com.lemon.LemonApp getInstance() -> a
+com.lemon.MainActivity -> com.lemon.MainActivity:
+    java.util.ArrayList list -> a
+    void onCreate(android.os.Bundle) -> onCreate
+com.lemon.MainActivity$1 -> com.lemon.a:
+    com.lemon.MainActivity this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.lemon.adapters.PluginAdapter -> com.lemon.a.a:
+    android.content.Context mContext -> a
+    java.util.ArrayList pluginList -> b
+    android.view.LayoutInflater mInflater -> c
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+com.lemon.file.FileManager -> com.lemon.c.a:
+    java.lang.String SDCARD_PAHT -> d
+    java.lang.String LOCAL_PATH -> a
+    java.lang.String CURRENT_PATH -> e
+    java.lang.String FILESPARATOR -> f
+    java.lang.String NEWLINE -> g
+    java.lang.String APPROOT -> h
+    java.lang.String SUFFIX_PLUGIN_PATH -> b
+    java.lang.String SUFFIX_PLUGIN_PATH_TMP_JAR -> i
+    java.lang.String PLUGIN_PATH -> c
+    boolean writeFile(java.lang.String,java.io.InputStream) -> a
+    boolean isFileExist(java.lang.String) -> a
+    boolean createFile(java.lang.String) -> b
+com.lemon.plugin.Plugin -> com.lemon.plugin.c:
+    android.view.View contentView -> a
+com.lemon.plugin.PluginBean -> com.lemon.plugin.b:
+    java.lang.String id -> a
+    java.lang.String authorID -> b
+    java.lang.String typeID -> c
+    java.lang.String name -> d
+    java.lang.String icon -> e
+    java.lang.String description -> f
+    java.lang.String updateTime -> g
+    java.lang.String signature -> h
+    java.lang.String version -> i
+    java.lang.String path -> j
+    java.lang.String fileName -> k
+    java.lang.String className -> l
+    void setId(java.lang.String) -> a
+    void setAuthorID(java.lang.String) -> b
+    void setTypeID(java.lang.String) -> c
+    java.lang.String getName() -> a
+    void setName(java.lang.String) -> d
+    void setIcon(java.lang.String) -> e
+    void setDescription(java.lang.String) -> f
+    void setUpdateTime(java.lang.String) -> g
+    void setSignature(java.lang.String) -> h
+    void setVersion(java.lang.String) -> i
+    void setPath(java.lang.String) -> j
+    java.lang.String getFileName() -> b
+    void setFileName(java.lang.String) -> k
+    java.lang.String getClassName() -> c
+    void setClassName(java.lang.String) -> l
+com.lemon.plugin.PluginFactory -> com.lemon.plugin.a:
+    com.lemon.plugin.Plugin produce(android.content.Context,com.lemon.plugin.PluginBean) -> a
+com.lemon.plugin.PluginShowActivity -> com.lemon.plugin.PluginShowActivity:
+    void onCreate(android.os.Bundle) -> onCreate
+com.lemon.xmlparser.PluginListParser -> com.lemon.b.a:
+    java.util.ArrayList read(java.io.InputStream) -> a

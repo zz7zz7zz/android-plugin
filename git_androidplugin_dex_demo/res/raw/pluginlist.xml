@@ -1,0 +1,44 @@
+<pluginlist>
+	<plugin>
+		<id>10001</id>
+		<authorid>100010001</authorid>
+		<typeid>1</typeid>
+		<name>图片鉴赏</name>
+		<icon></icon>
+		<description></description>
+		<updateTime></updateTime>
+		<signature></signature>
+		<version></version>
+		<path>1</path><!--0代表SD卡，1代表程序的私有目录 -->
+		<filename>plugin1.jar</filename>
+		<classname>com.open.androidplugin.plugin1.ImagePlugin</classname>
+	</plugin>
+	<plugin>
+		<id>10002</id>
+		<authorid>100010001</authorid>
+		<typeid>1</typeid>
+		<name>名站导航</name>
+		<icon></icon>
+		<description></description>
+		<updateTime></updateTime>
+		<signature></signature>
+		<version></version>
+		<path></path>
+		<filename>plugin2.jar</filename>
+		<classname>com.open.androidplugin.plugin2.WebSitePlugin</classname>
+	</plugin>
+	<plugin>
+		<id>10003</id>
+		<authorid>100010001</authorid>
+		<typeid>1</typeid>
+		<name>小游戏</name>
+		<icon></icon>
+		<description></description>
+		<updateTime></updateTime>
+		<signature></signature>
+		<version></version>
+		<path></path>
+		<filename>plugin3.jar</filename>
+		<classname>com.open.androidplugin.plugin3.SnakePlugin</classname>
+	</plugin>	
+</pluginlist>

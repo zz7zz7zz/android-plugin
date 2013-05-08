@@ -1,0 +1,2515 @@
+_____________________________________________________________________
++ Program class: com/lemon/MainActivity
+  Superclass:    android/app/Activity
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.lemon.MainActivity extends android.app.Activity
+
+Interfaces (count = 0):
+
+Constant Pool (count = 136):
+  - Integer [2130903040]
+  - Integer [2131034112]
+  - Integer [2131230721]
+  - Class [android/app/Activity]
+  - Class [android/content/res/AssetManager]
+  - Class [android/content/res/Resources]
+  - Class [android/widget/AdapterView]
+  - Class [android/widget/AdapterView$OnItemClickListener]
+  - Class [android/widget/GridView]
+  - Class [com/lemon/MainActivity]
+  - Class [com/lemon/a]
+  - Class [com/lemon/a/a]
+  - Class [com/lemon/b/a]
+  - Class [com/lemon/c/a]
+  - Class [com/lemon/plugin/b]
+  - Class [java/io/IOException]
+  - Class [java/lang/String]
+  - Class [java/lang/StringBuilder]
+  - Class [java/util/ArrayList]
+  - Fieldref [com/lemon/MainActivity.a Ljava/util/ArrayList;]
+  - Fieldref [com/lemon/c/a.c Ljava/lang/String;]
+  - Methodref [android/app/Activity.<init> ()V]
+  - Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+  - Methodref [android/content/res/AssetManager.open (Ljava/lang/String;)Ljava/io/InputStream;]
+  - Methodref [android/content/res/Resources.getAssets ()Landroid/content/res/AssetManager;]
+  - Methodref [android/content/res/Resources.openRawResource (I)Ljava/io/InputStream;]
+  - Methodref [android/widget/GridView.setAdapter (Landroid/widget/ListAdapter;)V]
+  - Methodref [android/widget/GridView.setOnItemClickListener (Landroid/widget/AdapterView$OnItemClickListener;)V]
+  - Methodref [com/lemon/MainActivity.findViewById (I)Landroid/view/View;]
+  - Methodref [com/lemon/MainActivity.getResources ()Landroid/content/res/Resources;]
+  - Methodref [com/lemon/MainActivity.requestWindowFeature (I)Z]
+  - Methodref [com/lemon/MainActivity.setContentView (I)V]
+  - Methodref [com/lemon/a.<init> (Lcom/lemon/MainActivity;)V]
+  - Methodref [com/lemon/a/a.<init> (Landroid/content/Context;Ljava/util/ArrayList;)V]
+  - Methodref [com/lemon/b/a.<init> ()V]
+  - Methodref [com/lemon/b/a.a (Ljava/io/InputStream;)Ljava/util/ArrayList;]
+  - Methodref [com/lemon/c/a.a (Ljava/lang/String;)Z]
+  - Methodref [com/lemon/c/a.a (Ljava/lang/String;Ljava/io/InputStream;)Z]
+  - Methodref [com/lemon/plugin/b.b ()Ljava/lang/String;]
+  - Methodref [java/io/IOException.printStackTrace ()V]
+  - Methodref [java/lang/String.valueOf (Ljava/lang/Object;)Ljava/lang/String;]
+  - Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+  - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+  - Methodref [java/util/ArrayList.<init> (I)V]
+  - Methodref [java/util/ArrayList.get (I)Ljava/lang/Object;]
+  - Methodref [java/util/ArrayList.size ()I]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (I)V]
+  + NameAndType [<init> (Landroid/content/Context;Ljava/util/ArrayList;)V]
+  + NameAndType [<init> (Lcom/lemon/MainActivity;)V]
+  + NameAndType [<init> (Ljava/lang/String;)V]
+  + NameAndType [a (Ljava/io/InputStream;)Ljava/util/ArrayList;]
+  + NameAndType [a (Ljava/lang/String;)Z]
+  + NameAndType [a (Ljava/lang/String;Ljava/io/InputStream;)Z]
+  + NameAndType [a Ljava/util/ArrayList;]
+  + NameAndType [append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + NameAndType [b ()Ljava/lang/String;]
+  + NameAndType [c Ljava/lang/String;]
+  + NameAndType [findViewById (I)Landroid/view/View;]
+  + NameAndType [get (I)Ljava/lang/Object;]
+  + NameAndType [getAssets ()Landroid/content/res/AssetManager;]
+  + NameAndType [getResources ()Landroid/content/res/Resources;]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [open (Ljava/lang/String;)Ljava/io/InputStream;]
+  + NameAndType [openRawResource (I)Ljava/io/InputStream;]
+  + NameAndType [printStackTrace ()V]
+  + NameAndType [requestWindowFeature (I)Z]
+  + NameAndType [setAdapter (Landroid/widget/ListAdapter;)V]
+  + NameAndType [setContentView (I)V]
+  + NameAndType [setOnItemClickListener (Landroid/widget/AdapterView$OnItemClickListener;)V]
+  + NameAndType [size ()I]
+  + NameAndType [toString ()Ljava/lang/String;]
+  + NameAndType [valueOf (Ljava/lang/Object;)Ljava/lang/String;]
+  + Utf8 [()I]
+  + Utf8 [()Landroid/content/res/AssetManager;]
+  + Utf8 [()Landroid/content/res/Resources;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [(I)Ljava/io/InputStream;]
+  + Utf8 [(I)Ljava/lang/Object;]
+  + Utf8 [(I)V]
+  + Utf8 [(I)Z]
+  + Utf8 [(Landroid/content/Context;Ljava/util/ArrayList;)V]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [(Landroid/widget/AdapterView$OnItemClickListener;)V]
+  + Utf8 [(Landroid/widget/ListAdapter;)V]
+  + Utf8 [(Lcom/lemon/MainActivity;)V]
+  + Utf8 [(Ljava/io/InputStream;)Ljava/util/ArrayList;]
+  + Utf8 [(Ljava/lang/Object;)Ljava/lang/String;]
+  + Utf8 [(Ljava/lang/String;)Ljava/io/InputStream;]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [(Ljava/lang/String;)Z]
+  + Utf8 [(Ljava/lang/String;Ljava/io/InputStream;)Z]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Ljava/lang/String;]
+  + Utf8 [Ljava/util/ArrayList;]
+  + Utf8 [a]
+  + Utf8 [android/app/Activity]
+  + Utf8 [android/content/res/AssetManager]
+  + Utf8 [android/content/res/Resources]
+  + Utf8 [android/widget/AdapterView]
+  + Utf8 [android/widget/AdapterView$OnItemClickListener]
+  + Utf8 [android/widget/GridView]
+  + Utf8 [append]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [com/lemon/MainActivity]
+  + Utf8 [com/lemon/a]
+  + Utf8 [com/lemon/a/a]
+  + Utf8 [com/lemon/b/a]
+  + Utf8 [com/lemon/c/a]
+  + Utf8 [com/lemon/plugin/b]
+  + Utf8 [findViewById]
+  + Utf8 [get]
+  + Utf8 [getAssets]
+  + Utf8 [getResources]
+  + Utf8 [java/io/IOException]
+  + Utf8 [java/lang/String]
+  + Utf8 [java/lang/StringBuilder]
+  + Utf8 [java/util/ArrayList]
+  + Utf8 [onCreate]
+  + Utf8 [open]
+  + Utf8 [openRawResource]
+  + Utf8 [printStackTrace]
+  + Utf8 [requestWindowFeature]
+  + Utf8 [setAdapter]
+  + Utf8 [setContentView]
+  + Utf8 [setOnItemClickListener]
+  + Utf8 [size]
+  + Utf8 [toString]
+  + Utf8 [valueOf]
+
+Fields (count = 1):
+  + Field:        a Ljava/util/ArrayList;
+    Access flags: 0x0
+      = java.util.ArrayList a
+
+Methods (count = 2):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public MainActivity()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 18, locals = 1, stack = 4):
+      [0] aload_0 v0
+      [1] invokespecial #22
+        - Methodref [android/app/Activity.<init> ()V]
+      [4] aload_0 v0
+      [5] new #19
+        - Class [java/util/ArrayList]
+      [8] dup
+      [9] bipush 20
+      [11] invokespecial #45
+        - Methodref [java/util/ArrayList.<init> (I)V]
+      [14] putfield #20
+        - Fieldref [com/lemon/MainActivity.a Ljava/util/ArrayList;]
+      [17] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x1
+      = public void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 204, locals = 7, stack = 4):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #23
+        - Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+      [5] aload_0 v0
+      [6] iconst_1
+      [7] invokevirtual #31
+        - Methodref [com/lemon/MainActivity.requestWindowFeature (I)Z]
+      [10] pop
+      [11] aload_0 v0
+      [12] ldc #1
+        - Integer [2130903040]
+      [14] invokevirtual #32
+        - Methodref [com/lemon/MainActivity.setContentView (I)V]
+      [17] aload_0 v0
+      [18] invokevirtual #30
+        - Methodref [com/lemon/MainActivity.getResources ()Landroid/content/res/Resources;]
+      [21] ldc #2
+        - Integer [2131034112]
+      [23] invokevirtual #26
+        - Methodref [android/content/res/Resources.openRawResource (I)Ljava/io/InputStream;]
+      [26] astore_1 v1
+      [27] new #13
+        - Class [com/lemon/b/a]
+      [30] invokespecial #35
+        - Methodref [com/lemon/b/a.<init> ()V]
+      [33] aload_0 v0
+      [34] aload_1 v1
+      [35] invokestatic #36
+        - Methodref [com/lemon/b/a.a (Ljava/io/InputStream;)Ljava/util/ArrayList;]
+      [38] putfield #20
+        - Fieldref [com/lemon/MainActivity.a Ljava/util/ArrayList;]
+      [41] aload_0 v0
+      [42] dup
+      [43] astore_1 v1
+      [44] invokevirtual #30
+        - Methodref [com/lemon/MainActivity.getResources ()Landroid/content/res/Resources;]
+      [47] invokevirtual #25
+        - Methodref [android/content/res/Resources.getAssets ()Landroid/content/res/AssetManager;]
+      [50] astore_2 v2
+      [51] aload_1 v1
+      [52] getfield #20
+        - Fieldref [com/lemon/MainActivity.a Ljava/util/ArrayList;]
+      [55] invokevirtual #47
+        - Methodref [java/util/ArrayList.size ()I]
+      [58] istore_3 v3
+      [59] iconst_0
+      [60] istore v4
+      [62] goto +95 (target=157)
+      [65] aload_1 v1
+      [66] getfield #20
+        - Fieldref [com/lemon/MainActivity.a Ljava/util/ArrayList;]
+      [69] iload v4
+      [71] invokevirtual #46
+        - Methodref [java/util/ArrayList.get (I)Ljava/lang/Object;]
+      [74] checkcast #15
+        - Class [com/lemon/plugin/b]
+      [77] invokevirtual #39
+        - Methodref [com/lemon/plugin/b.b ()Ljava/lang/String;]
+      [80] astore v5
+      [82] aload_2 v2
+      [83] aload v5
+      [85] invokevirtual #24
+        - Methodref [android/content/res/AssetManager.open (Ljava/lang/String;)Ljava/io/InputStream;]
+      [88] dup
+      [89] astore v6
+      [91] ifnull +63 (target=154)
+      [94] new #18
+        - Class [java/lang/StringBuilder]
+      [97] dup
+      [98] getstatic #21
+        - Fieldref [com/lemon/c/a.c Ljava/lang/String;]
+      [101] invokestatic #41
+        - Methodref [java/lang/String.valueOf (Ljava/lang/Object;)Ljava/lang/String;]
+      [104] invokespecial #42
+        - Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+      [107] aload v5
+      [109] invokevirtual #43
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [112] invokevirtual #44
+        - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [115] invokestatic #37
+        - Methodref [com/lemon/c/a.a (Ljava/lang/String;)Z]
+      [118] ifne +36 (target=154)
+      [121] new #18
+        - Class [java/lang/StringBuilder]
+      [124] dup
+      [125] getstatic #21
+        - Fieldref [com/lemon/c/a.c Ljava/lang/String;]
+      [128] invokestatic #41
+        - Methodref [java/lang/String.valueOf (Ljava/lang/Object;)Ljava/lang/String;]
+      [131] invokespecial #42
+        - Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+      [134] aload v5
+      [136] invokevirtual #43
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [139] invokevirtual #44
+        - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [142] aload v6
+      [144] invokestatic #38
+        - Methodref [com/lemon/c/a.a (Ljava/lang/String;Ljava/io/InputStream;)Z]
+      [147] pop
+      [148] goto +6 (target=154)
+      [151] invokevirtual #40
+        - Methodref [java/io/IOException.printStackTrace ()V]
+      [154] iinc v4, 1
+      [157] iload v4
+      [159] iload_3 v3
+      [160] ificmplt -95 (target=65)
+      [163] new #12
+        - Class [com/lemon/a/a]
+      [166] dup
+      [167] aload_0 v0
+      [168] aload_0 v0
+      [169] getfield #20
+        - Fieldref [com/lemon/MainActivity.a Ljava/util/ArrayList;]
+      [172] invokespecial #34
+        - Methodref [com/lemon/a/a.<init> (Landroid/content/Context;Ljava/util/ArrayList;)V]
+      [175] astore_1 v1
+      [176] aload_0 v0
+      [177] ldc #3
+        - Integer [2131230721]
+      [179] invokevirtual #29
+        - Methodref [com/lemon/MainActivity.findViewById (I)Landroid/view/View;]
+      [182] checkcast #9
+        - Class [android/widget/GridView]
+      [185] dup
+      [186] astore_2 v2
+      [187] aload_1 v1
+      [188] invokevirtual #27
+        - Methodref [android/widget/GridView.setAdapter (Landroid/widget/ListAdapter;)V]
+      [191] aload_2 v2
+      [192] new #11
+        - Class [com/lemon/a]
+      [195] dup
+      [196] aload_0 v0
+      [197] invokespecial #33
+        - Methodref [com/lemon/a.<init> (Lcom/lemon/MainActivity;)V]
+      [200] invokevirtual #28
+        - Methodref [android/widget/GridView.setOnItemClickListener (Landroid/widget/AdapterView$OnItemClickListener;)V]
+      [203] return
+      Code attribute exceptions (count = 1):
+      - ExceptionInfo (82 -> 148: 151):
+      - Class [java/io/IOException]
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/lemon/plugin/PluginShowActivity
+  Superclass:    android/app/Activity
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x31
+    = public final class com.lemon.plugin.PluginShowActivity extends android.app.Activity
+
+Interfaces (count = 0):
+
+Constant Pool (count = 68):
+  - String [plugin]
+  - String [plugin is null,please check you code]
+  - Class [android/app/Activity]
+  - Class [android/content/Intent]
+  - Class [android/os/Bundle]
+  - Class [android/widget/Toast]
+  - Class [com/lemon/plugin/PluginShowActivity]
+  - Class [com/lemon/plugin/a]
+  - Class [com/lemon/plugin/b]
+  - Class [com/lemon/plugin/c]
+  - Fieldref [com/lemon/plugin/c.a Landroid/view/View;]
+  - Methodref [android/app/Activity.<init> ()V]
+  - Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+  - Methodref [android/content/Intent.getExtras ()Landroid/os/Bundle;]
+  - Methodref [android/os/Bundle.get (Ljava/lang/String;)Ljava/lang/Object;]
+  - Methodref [android/widget/Toast.makeText (Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;]
+  - Methodref [android/widget/Toast.show ()V]
+  - Methodref [com/lemon/plugin/PluginShowActivity.finish ()V]
+  - Methodref [com/lemon/plugin/PluginShowActivity.getIntent ()Landroid/content/Intent;]
+  - Methodref [com/lemon/plugin/PluginShowActivity.requestWindowFeature (I)Z]
+  - Methodref [com/lemon/plugin/PluginShowActivity.setContentView (Landroid/view/View;)V]
+  - Methodref [com/lemon/plugin/a.a (Landroid/content/Context;Lcom/lemon/plugin/b;)Lcom/lemon/plugin/c;]
+  + NameAndType [<init> ()V]
+  + NameAndType [a (Landroid/content/Context;Lcom/lemon/plugin/b;)Lcom/lemon/plugin/c;]
+  + NameAndType [a Landroid/view/View;]
+  + NameAndType [finish ()V]
+  + NameAndType [get (Ljava/lang/String;)Ljava/lang/Object;]
+  + NameAndType [getExtras ()Landroid/os/Bundle;]
+  + NameAndType [getIntent ()Landroid/content/Intent;]
+  + NameAndType [makeText (Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [requestWindowFeature (I)Z]
+  + NameAndType [setContentView (Landroid/view/View;)V]
+  + NameAndType [show ()V]
+  + Utf8 [()Landroid/content/Intent;]
+  + Utf8 [()Landroid/os/Bundle;]
+  + Utf8 [()V]
+  + Utf8 [(I)Z]
+  + Utf8 [(Landroid/content/Context;Lcom/lemon/plugin/b;)Lcom/lemon/plugin/c;]
+  + Utf8 [(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [(Landroid/view/View;)V]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/Object;]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Landroid/view/View;]
+  + Utf8 [StackMapTable]
+  + Utf8 [a]
+  + Utf8 [android/app/Activity]
+  + Utf8 [android/content/Intent]
+  + Utf8 [android/os/Bundle]
+  + Utf8 [android/widget/Toast]
+  + Utf8 [com/lemon/plugin/PluginShowActivity]
+  + Utf8 [com/lemon/plugin/a]
+  + Utf8 [com/lemon/plugin/b]
+  + Utf8 [com/lemon/plugin/c]
+  + Utf8 [finish]
+  + Utf8 [get]
+  + Utf8 [getExtras]
+  + Utf8 [getIntent]
+  + Utf8 [makeText]
+  + Utf8 [onCreate]
+  + Utf8 [plugin]
+  + Utf8 [plugin is null,please check you code]
+  + Utf8 [requestWindowFeature]
+  + Utf8 [setContentView]
+  + Utf8 [show]
+
+Fields (count = 0):
+
+Methods (count = 2):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public PluginShowActivity()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #12
+        - Methodref [android/app/Activity.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x14
+      = protected final void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 67, locals = 2, stack = 3):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #13
+        - Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+      [5] aload_0 v0
+      [6] iconst_1
+      [7] invokevirtual #20
+        - Methodref [com/lemon/plugin/PluginShowActivity.requestWindowFeature (I)Z]
+      [10] pop
+      [11] aload_0 v0
+      [12] invokevirtual #19
+        - Methodref [com/lemon/plugin/PluginShowActivity.getIntent ()Landroid/content/Intent;]
+      [15] invokevirtual #14
+        - Methodref [android/content/Intent.getExtras ()Landroid/os/Bundle;]
+      [18] dup
+      [19] astore_1 v1
+      [20] ifnull +42 (target=62)
+      [23] aload_1 v1
+      [24] ldc #1
+        - String [plugin]
+      [26] invokevirtual #15
+        - Methodref [android/os/Bundle.get (Ljava/lang/String;)Ljava/lang/Object;]
+      [29] checkcast #9
+        - Class [com/lemon/plugin/b]
+      [32] astore_1 v1
+      [33] aload_0 v0
+      [34] aload_1 v1
+      [35] invokestatic #22
+        - Methodref [com/lemon/plugin/a.a (Landroid/content/Context;Lcom/lemon/plugin/b;)Lcom/lemon/plugin/c;]
+      [38] dup
+      [39] astore_1 v1
+      [40] ifnull +12 (target=52)
+      [43] aload_0 v0
+      [44] aload_1 v1
+      [45] getfield #11
+        - Fieldref [com/lemon/plugin/c.a Landroid/view/View;]
+      [48] invokevirtual #21
+        - Methodref [com/lemon/plugin/PluginShowActivity.setContentView (Landroid/view/View;)V]
+      [51] return
+      [52] aload_0 v0
+      [53] ldc #2
+        - String [plugin is null,please check you code]
+      [55] iconst_1
+      [56] invokestatic #16
+        - Methodref [android/widget/Toast.makeText (Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;]
+      [59] invokevirtual #17
+        - Methodref [android/widget/Toast.show ()V]
+      [62] aload_0 v0
+      [63] invokevirtual #18
+        - Methodref [com/lemon/plugin/PluginShowActivity.finish ()V]
+      [66] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 4):
+        - [52] Var: [a:com/lemon/plugin/PluginShowActivity][a:android/os/Bundle][a:android/content/Intent][a:android/os/Bundle][a:com/lemon/plugin/b][a:com/lemon/plugin/c], Stack: 
+        - [62] Var: ..., Stack: (empty)
+        - [62] Var: -2, Stack: (empty)
+        - [66] Var: ..., Stack: (empty)
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/lemon/a
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x30
+    = final class com.lemon.a extends java.lang.Object
+
+Interfaces (count = 1):
+  - Class [android/widget/AdapterView$OnItemClickListener]
+
+Constant Pool (count = 58):
+  - String [plugin]
+  - Class [android/content/Intent]
+  - Class [android/os/Bundle]
+  - Class [android/widget/AdapterView]
+  - Class [android/widget/AdapterView$OnItemClickListener]
+  - Class [com/lemon/MainActivity]
+  - Class [com/lemon/a]
+  - Class [com/lemon/plugin/PluginShowActivity]
+  - Class [java/io/Serializable]
+  - Class [java/lang/Object]
+  - Class [java/util/ArrayList]
+  - Fieldref [com/lemon/MainActivity.a Ljava/util/ArrayList;]
+  - Fieldref [com/lemon/a.a Lcom/lemon/MainActivity;]
+  - Methodref [android/content/Intent.<init> (Landroid/content/Context;Ljava/lang/Class;)V]
+  - Methodref [android/content/Intent.putExtras (Landroid/os/Bundle;)Landroid/content/Intent;]
+  - Methodref [android/os/Bundle.<init> ()V]
+  - Methodref [android/os/Bundle.putSerializable (Ljava/lang/String;Ljava/io/Serializable;)V]
+  - Methodref [com/lemon/MainActivity.startActivity (Landroid/content/Intent;)V]
+  - Methodref [java/lang/Object.<init> ()V]
+  - Methodref [java/util/ArrayList.get (I)Ljava/lang/Object;]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Landroid/content/Context;Ljava/lang/Class;)V]
+  + NameAndType [a Lcom/lemon/MainActivity;]
+  + NameAndType [a Ljava/util/ArrayList;]
+  + NameAndType [get (I)Ljava/lang/Object;]
+  + NameAndType [putExtras (Landroid/os/Bundle;)Landroid/content/Intent;]
+  + NameAndType [putSerializable (Ljava/lang/String;Ljava/io/Serializable;)V]
+  + NameAndType [startActivity (Landroid/content/Intent;)V]
+  + Utf8 [()V]
+  + Utf8 [(I)Ljava/lang/Object;]
+  + Utf8 [(Landroid/content/Context;Ljava/lang/Class;)V]
+  + Utf8 [(Landroid/content/Intent;)V]
+  + Utf8 [(Landroid/os/Bundle;)Landroid/content/Intent;]
+  + Utf8 [(Landroid/widget/AdapterView;Landroid/view/View;IJ)V]
+  + Utf8 [(Lcom/lemon/MainActivity;)V]
+  + Utf8 [(Ljava/lang/String;Ljava/io/Serializable;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Lcom/lemon/MainActivity;]
+  + Utf8 [Ljava/util/ArrayList;]
+  + Utf8 [a]
+  + Utf8 [android/content/Intent]
+  + Utf8 [android/os/Bundle]
+  + Utf8 [android/widget/AdapterView]
+  + Utf8 [android/widget/AdapterView$OnItemClickListener]
+  + Utf8 [com/lemon/MainActivity]
+  + Utf8 [com/lemon/a]
+  + Utf8 [com/lemon/plugin/PluginShowActivity]
+  + Utf8 [get]
+  + Utf8 [java/io/Serializable]
+  + Utf8 [java/lang/Object]
+  + Utf8 [java/util/ArrayList]
+  + Utf8 [onItemClick]
+  + Utf8 [plugin]
+  + Utf8 [putExtras]
+  + Utf8 [putSerializable]
+  + Utf8 [startActivity]
+
+Fields (count = 1):
+  + Field:        a Lcom/lemon/MainActivity;
+    Access flags: 0x1002
+      = private com.lemon.MainActivity a
+
+Methods (count = 2):
+  - Method:       <init>(Lcom/lemon/MainActivity;)V
+    Access flags: 0x0
+      = a(com.lemon.MainActivity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #13
+        - Fieldref [com/lemon/a.a Lcom/lemon/MainActivity;]
+      [5] aload_0 v0
+      [6] invokespecial #19
+        - Methodref [java/lang/Object.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V
+    Access flags: 0x11
+      = public final void onItemClick(android.widget.AdapterView,android.view.View,int,long)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 57, locals = 6, stack = 4):
+      [0] new #2
+        - Class [android/content/Intent]
+      [3] dup
+      [4] aload_0 v0
+      [5] getfield #13
+        - Fieldref [com/lemon/a.a Lcom/lemon/MainActivity;]
+      [8] ldc #8
+        - Class [com/lemon/plugin/PluginShowActivity]
+      [10] invokespecial #14
+        - Methodref [android/content/Intent.<init> (Landroid/content/Context;Ljava/lang/Class;)V]
+      [13] astore_1 v1
+      [14] new #3
+        - Class [android/os/Bundle]
+      [17] dup
+      [18] invokespecial #16
+        - Methodref [android/os/Bundle.<init> ()V]
+      [21] dup
+      [22] astore_2 v2
+      [23] ldc #1
+        - String [plugin]
+      [25] aload_0 v0
+      [26] getfield #13
+        - Fieldref [com/lemon/a.a Lcom/lemon/MainActivity;]
+      [29] getfield #12
+        - Fieldref [com/lemon/MainActivity.a Ljava/util/ArrayList;]
+      [32] iload_3 v3
+      [33] invokevirtual #20
+        - Methodref [java/util/ArrayList.get (I)Ljava/lang/Object;]
+      [36] checkcast #9
+        - Class [java/io/Serializable]
+      [39] invokevirtual #17
+        - Methodref [android/os/Bundle.putSerializable (Ljava/lang/String;Ljava/io/Serializable;)V]
+      [42] aload_1 v1
+      [43] aload_2 v2
+      [44] invokevirtual #15
+        - Methodref [android/content/Intent.putExtras (Landroid/os/Bundle;)Landroid/content/Intent;]
+      [47] pop
+      [48] aload_0 v0
+      [49] getfield #13
+        - Fieldref [com/lemon/a.a Lcom/lemon/MainActivity;]
+      [52] aload_1 v1
+      [53] invokevirtual #18
+        - Methodref [com/lemon/MainActivity.startActivity (Landroid/content/Intent;)V]
+      [56] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/lemon/plugin/a
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x31
+    = public final class com.lemon.plugin.a extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 113):
+  - Class [android/content/Context]
+  - Class [com/lemon/c/a]
+  - Class [com/lemon/plugin/a]
+  - Class [com/lemon/plugin/b]
+  - Class [com/lemon/plugin/c]
+  - Class [dalvik/system/DexClassLoader]
+  - Class [java/io/File]
+  - Class [java/lang/Class]
+  - Class [java/lang/ClassNotFoundException]
+  - Class [java/lang/IllegalAccessException]
+  - Class [java/lang/IllegalArgumentException]
+  - Class [java/lang/InstantiationException]
+  - Class [java/lang/NoSuchMethodException]
+  - Class [java/lang/Object]
+  - Class [java/lang/SecurityException]
+  - Class [java/lang/String]
+  - Class [java/lang/StringBuilder]
+  - Class [java/lang/reflect/Constructor]
+  - Class [java/lang/reflect/InvocationTargetException]
+  - Fieldref [com/lemon/c/a.a Ljava/lang/String;]
+  - Fieldref [com/lemon/c/a.b Ljava/lang/String;]
+  - Fieldref [com/lemon/c/a.c Ljava/lang/String;]
+  - Methodref [com/lemon/plugin/b.b ()Ljava/lang/String;]
+  - Methodref [com/lemon/plugin/b.c ()Ljava/lang/String;]
+  - Methodref [dalvik/system/DexClassLoader.<init> (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/ClassLoader;)V]
+  - Methodref [dalvik/system/DexClassLoader.loadClass (Ljava/lang/String;)Ljava/lang/Class;]
+  - Methodref [java/io/File.<init> (Ljava/lang/String;)V]
+  - Methodref [java/io/File.exists ()Z]
+  - Methodref [java/io/File.toString ()Ljava/lang/String;]
+  - Methodref [java/lang/Class.getClassLoader ()Ljava/lang/ClassLoader;]
+  - Methodref [java/lang/Class.getConstructor ([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;]
+  - Methodref [java/lang/ClassNotFoundException.printStackTrace ()V]
+  - Methodref [java/lang/IllegalAccessException.printStackTrace ()V]
+  - Methodref [java/lang/IllegalArgumentException.printStackTrace ()V]
+  - Methodref [java/lang/InstantiationException.printStackTrace ()V]
+  - Methodref [java/lang/NoSuchMethodException.printStackTrace ()V]
+  - Methodref [java/lang/Object.<init> ()V]
+  - Methodref [java/lang/Object.getClass ()Ljava/lang/Class;]
+  - Methodref [java/lang/SecurityException.printStackTrace ()V]
+  - Methodref [java/lang/String.valueOf (Ljava/lang/Object;)Ljava/lang/String;]
+  - Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+  - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+  - Methodref [java/lang/reflect/Constructor.newInstance ([Ljava/lang/Object;)Ljava/lang/Object;]
+  - Methodref [java/lang/reflect/InvocationTargetException.printStackTrace ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Ljava/lang/String;)V]
+  + NameAndType [<init> (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/ClassLoader;)V]
+  + NameAndType [a Ljava/lang/String;]
+  + NameAndType [append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + NameAndType [b ()Ljava/lang/String;]
+  + NameAndType [b Ljava/lang/String;]
+  + NameAndType [c ()Ljava/lang/String;]
+  + NameAndType [c Ljava/lang/String;]
+  + NameAndType [exists ()Z]
+  + NameAndType [getClass ()Ljava/lang/Class;]
+  + NameAndType [getClassLoader ()Ljava/lang/ClassLoader;]
+  + NameAndType [getConstructor ([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;]
+  + NameAndType [loadClass (Ljava/lang/String;)Ljava/lang/Class;]
+  + NameAndType [newInstance ([Ljava/lang/Object;)Ljava/lang/Object;]
+  + NameAndType [printStackTrace ()V]
+  + NameAndType [toString ()Ljava/lang/String;]
+  + NameAndType [valueOf (Ljava/lang/Object;)Ljava/lang/String;]
+  + Utf8 [()Ljava/lang/Class;]
+  + Utf8 [()Ljava/lang/ClassLoader;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [()Z]
+  + Utf8 [(Landroid/content/Context;Lcom/lemon/plugin/b;)Lcom/lemon/plugin/c;]
+  + Utf8 [(Ljava/lang/Object;)Ljava/lang/String;]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/Class;]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/ClassLoader;)V]
+  + Utf8 [([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;]
+  + Utf8 [([Ljava/lang/Object;)Ljava/lang/Object;]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Ljava/lang/String;]
+  + Utf8 [StackMapTable]
+  + Utf8 [a]
+  + Utf8 [android/content/Context]
+  + Utf8 [append]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [com/lemon/c/a]
+  + Utf8 [com/lemon/plugin/a]
+  + Utf8 [com/lemon/plugin/b]
+  + Utf8 [com/lemon/plugin/c]
+  + Utf8 [dalvik/system/DexClassLoader]
+  + Utf8 [exists]
+  + Utf8 [getClass]
+  + Utf8 [getClassLoader]
+  + Utf8 [getConstructor]
+  + Utf8 [java/io/File]
+  + Utf8 [java/lang/Class]
+  + Utf8 [java/lang/ClassNotFoundException]
+  + Utf8 [java/lang/IllegalAccessException]
+  + Utf8 [java/lang/IllegalArgumentException]
+  + Utf8 [java/lang/InstantiationException]
+  + Utf8 [java/lang/NoSuchMethodException]
+  + Utf8 [java/lang/Object]
+  + Utf8 [java/lang/SecurityException]
+  + Utf8 [java/lang/String]
+  + Utf8 [java/lang/StringBuilder]
+  + Utf8 [java/lang/reflect/Constructor]
+  + Utf8 [java/lang/reflect/InvocationTargetException]
+  + Utf8 [loadClass]
+  + Utf8 [newInstance]
+  + Utf8 [printStackTrace]
+  + Utf8 [toString]
+  + Utf8 [valueOf]
+
+Fields (count = 0):
+
+Methods (count = 2):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #37
+        - Methodref [java/lang/Object.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Landroid/content/Context;Lcom/lemon/plugin/b;)Lcom/lemon/plugin/c;
+    Access flags: 0x18
+      = static final com.lemon.plugin.c a(android.content.Context,com.lemon.plugin.b)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 181, locals = 4, stack = 6):
+      [0] aconst_null
+      [1] astore_2 v2
+      [2] new #17
+        - Class [java/lang/StringBuilder]
+      [5] dup
+      [6] getstatic #20
+        - Fieldref [com/lemon/c/a.a Ljava/lang/String;]
+      [9] invokestatic #40
+        - Methodref [java/lang/String.valueOf (Ljava/lang/Object;)Ljava/lang/String;]
+      [12] invokespecial #41
+        - Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+      [15] getstatic #21
+        - Fieldref [com/lemon/c/a.b Ljava/lang/String;]
+      [18] invokevirtual #42
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [21] invokevirtual #43
+        - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [24] putstatic #22
+        - Fieldref [com/lemon/c/a.c Ljava/lang/String;]
+      [27] new #7
+        - Class [java/io/File]
+      [30] dup
+      [31] new #17
+        - Class [java/lang/StringBuilder]
+      [34] dup
+      [35] getstatic #22
+        - Fieldref [com/lemon/c/a.c Ljava/lang/String;]
+      [38] invokestatic #40
+        - Methodref [java/lang/String.valueOf (Ljava/lang/Object;)Ljava/lang/String;]
+      [41] invokespecial #41
+        - Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+      [44] aload_1 v1
+      [45] invokevirtual #23
+        - Methodref [com/lemon/plugin/b.b ()Ljava/lang/String;]
+      [48] invokevirtual #42
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [51] invokevirtual #43
+        - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [54] invokespecial #27
+        - Methodref [java/io/File.<init> (Ljava/lang/String;)V]
+      [57] dup
+      [58] astore_3 v3
+      [59] invokevirtual #28
+        - Methodref [java/io/File.exists ()Z]
+      [62] ifeq +117 (target=179)
+      [65] new #6
+        - Class [dalvik/system/DexClassLoader]
+      [68] dup
+      [69] aload_3 v3
+      [70] invokevirtual #29
+        - Methodref [java/io/File.toString ()Ljava/lang/String;]
+      [73] getstatic #22
+        - Fieldref [com/lemon/c/a.c Ljava/lang/String;]
+      [76] aconst_null
+      [77] aload_0 v0
+      [78] invokevirtual #38
+        - Methodref [java/lang/Object.getClass ()Ljava/lang/Class;]
+      [81] invokevirtual #30
+        - Methodref [java/lang/Class.getClassLoader ()Ljava/lang/ClassLoader;]
+      [84] invokespecial #25
+        - Methodref [dalvik/system/DexClassLoader.<init> (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/ClassLoader;)V]
+      [87] astore_3 v3
+      [88] aload_3 v3
+      [89] aload_1 v1
+      [90] invokevirtual #24
+        - Methodref [com/lemon/plugin/b.c ()Ljava/lang/String;]
+      [93] invokevirtual #26
+        - Methodref [dalvik/system/DexClassLoader.loadClass (Ljava/lang/String;)Ljava/lang/Class;]
+      [96] dup
+      [97] astore_1 v1
+      [98] ifnull +81 (target=179)
+      [101] iconst_1
+      [102] anewarray #8
+        - Class [java/lang/Class]
+      [105] dup
+      [106] iconst_0
+      [107] ldc #1
+        - Class [android/content/Context]
+      [109] aastore
+      [110] astore_3 v3
+      [111] aload_1 v1
+      [112] aload_3 v3
+      [113] invokevirtual #31
+        - Methodref [java/lang/Class.getConstructor ([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;]
+      [116] dup
+      [117] astore_1 v1
+      [118] ifnull +61 (target=179)
+      [121] aload_1 v1
+      [122] iconst_1
+      [123] anewarray #14
+        - Class [java/lang/Object]
+      [126] dup
+      [127] iconst_0
+      [128] aload_0 v0
+      [129] aastore
+      [130] invokevirtual #44
+        - Methodref [java/lang/reflect/Constructor.newInstance ([Ljava/lang/Object;)Ljava/lang/Object;]
+      [133] checkcast #5
+        - Class [com/lemon/plugin/c]
+      [136] astore_2 v2
+      [137] goto +42 (target=179)
+      [140] invokevirtual #32
+        - Methodref [java/lang/ClassNotFoundException.printStackTrace ()V]
+      [143] goto +36 (target=179)
+      [146] invokevirtual #34
+        - Methodref [java/lang/IllegalArgumentException.printStackTrace ()V]
+      [149] goto +30 (target=179)
+      [152] invokevirtual #35
+        - Methodref [java/lang/InstantiationException.printStackTrace ()V]
+      [155] goto +24 (target=179)
+      [158] invokevirtual #33
+        - Methodref [java/lang/IllegalAccessException.printStackTrace ()V]
+      [161] goto +18 (target=179)
+      [164] invokevirtual #45
+        - Methodref [java/lang/reflect/InvocationTargetException.printStackTrace ()V]
+      [167] goto +12 (target=179)
+      [170] invokevirtual #39
+        - Methodref [java/lang/SecurityException.printStackTrace ()V]
+      [173] goto +6 (target=179)
+      [176] invokevirtual #36
+        - Methodref [java/lang/NoSuchMethodException.printStackTrace ()V]
+      [179] aload_2 v2
+      [180] areturn
+      Code attribute exceptions (count = 7):
+      - ExceptionInfo (88 -> 137: 140):
+      - Class [java/lang/ClassNotFoundException]
+      - ExceptionInfo (88 -> 137: 146):
+      - Class [java/lang/IllegalArgumentException]
+      - ExceptionInfo (88 -> 137: 152):
+      - Class [java/lang/InstantiationException]
+      - ExceptionInfo (88 -> 137: 158):
+      - Class [java/lang/IllegalAccessException]
+      - ExceptionInfo (88 -> 137: 164):
+      - Class [java/lang/reflect/InvocationTargetException]
+      - ExceptionInfo (88 -> 137: 170):
+      - Class [java/lang/SecurityException]
+      - ExceptionInfo (88 -> 137: 176):
+      - Class [java/lang/NoSuchMethodException]
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 9):
+        - [137] Var: [a:android/content/Context][a:com/lemon/plugin/b][a:com/lemon/plugin/c][a:java/io/File][a:dalvik/system/DexClassLoader][a:java/lang/Class], Stack: 
+        - [140] Var: [a:android/content/Context][a:com/lemon/plugin/b][a:com/lemon/plugin/c][a:java/io/File][a:dalvik/system/DexClassLoader], Stack: [a:java/lang/ClassNotFoundException]
+        - [146] Var: ..., Stack: [a:java/lang/IllegalArgumentException]
+        - [152] Var: ..., Stack: [a:java/lang/InstantiationException]
+        - [158] Var: ..., Stack: [a:java/lang/IllegalAccessException]
+        - [164] Var: ..., Stack: [a:java/lang/reflect/InvocationTargetException]
+        - [170] Var: ..., Stack: [a:java/lang/SecurityException]
+        - [176] Var: ..., Stack: [a:java/lang/NoSuchMethodException]
+        - [179] Var: -1, Stack: (empty)
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/lemon/LemonApp
+  Superclass:    android/app/Application
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.lemon.LemonApp extends android.app.Application
+
+Interfaces (count = 0):
+
+Constant Pool (count = 18):
+  - Class [android/app/Application]
+  - Class [com/lemon/LemonApp]
+  - Fieldref [com/lemon/LemonApp.a Lcom/lemon/LemonApp;]
+  - Methodref [android/app/Application.<init> ()V]
+  - Methodref [android/app/Application.onCreate ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a Lcom/lemon/LemonApp;]
+  + NameAndType [onCreate ()V]
+  + Utf8 [()Lcom/lemon/LemonApp;]
+  + Utf8 [()V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Lcom/lemon/LemonApp;]
+  + Utf8 [a]
+  + Utf8 [android/app/Application]
+  + Utf8 [com/lemon/LemonApp]
+  + Utf8 [onCreate]
+
+Fields (count = 1):
+  + Field:        a Lcom/lemon/LemonApp;
+    Access flags: 0xa
+      = private static com.lemon.LemonApp a
+
+Methods (count = 3):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public LemonApp()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #4
+        - Methodref [android/app/Application.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate()V
+    Access flags: 0x1
+      = public void onCreate()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 9, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #5
+        - Methodref [android/app/Application.onCreate ()V]
+      [4] aload_0 v0
+      [5] putstatic #3
+        - Fieldref [com/lemon/LemonApp.a Lcom/lemon/LemonApp;]
+      [8] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a()Lcom/lemon/LemonApp;
+    Access flags: 0x9
+      = public static com.lemon.LemonApp a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 4, locals = 0, stack = 1):
+      [0] getstatic #3
+        - Fieldref [com/lemon/LemonApp.a Lcom/lemon/LemonApp;]
+      [3] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/lemon/plugin/b
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x31
+    = public final class com.lemon.plugin.b extends java.lang.Object
+
+Interfaces (count = 1):
+  - Class [java/io/Serializable]
+
+Constant Pool (count = 53):
+  - String []
+  - Class [com/lemon/plugin/b]
+  - Class [java/io/Serializable]
+  - Class [java/lang/Object]
+  - Fieldref [com/lemon/plugin/b.a Ljava/lang/String;]
+  - Fieldref [com/lemon/plugin/b.b Ljava/lang/String;]
+  - Fieldref [com/lemon/plugin/b.c Ljava/lang/String;]
+  - Fieldref [com/lemon/plugin/b.d Ljava/lang/String;]
+  - Fieldref [com/lemon/plugin/b.e Ljava/lang/String;]
+  - Fieldref [com/lemon/plugin/b.f Ljava/lang/String;]
+  - Fieldref [com/lemon/plugin/b.g Ljava/lang/String;]
+  - Fieldref [com/lemon/plugin/b.h Ljava/lang/String;]
+  - Fieldref [com/lemon/plugin/b.i Ljava/lang/String;]
+  - Fieldref [com/lemon/plugin/b.j Ljava/lang/String;]
+  - Fieldref [com/lemon/plugin/b.k Ljava/lang/String;]
+  - Fieldref [com/lemon/plugin/b.l Ljava/lang/String;]
+  - Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a Ljava/lang/String;]
+  + NameAndType [b Ljava/lang/String;]
+  + NameAndType [c Ljava/lang/String;]
+  + NameAndType [d Ljava/lang/String;]
+  + NameAndType [e Ljava/lang/String;]
+  + NameAndType [f Ljava/lang/String;]
+  + NameAndType [g Ljava/lang/String;]
+  + NameAndType [h Ljava/lang/String;]
+  + NameAndType [i Ljava/lang/String;]
+  + NameAndType [j Ljava/lang/String;]
+  + NameAndType [k Ljava/lang/String;]
+  + NameAndType [l Ljava/lang/String;]
+  + Utf8 []
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Ljava/lang/String;]
+  + Utf8 [a]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [com/lemon/plugin/b]
+  + Utf8 [d]
+  + Utf8 [e]
+  + Utf8 [f]
+  + Utf8 [g]
+  + Utf8 [h]
+  + Utf8 [i]
+  + Utf8 [j]
+  + Utf8 [java/io/Serializable]
+  + Utf8 [java/lang/Object]
+  + Utf8 [k]
+  + Utf8 [l]
+
+Fields (count = 12):
+  + Field:        a Ljava/lang/String;
+    Access flags: 0x2
+      = private java.lang.String a
+  + Field:        b Ljava/lang/String;
+    Access flags: 0x2
+      = private java.lang.String b
+  + Field:        c Ljava/lang/String;
+    Access flags: 0x2
+      = private java.lang.String c
+  + Field:        d Ljava/lang/String;
+    Access flags: 0x2
+      = private java.lang.String d
+  + Field:        e Ljava/lang/String;
+    Access flags: 0x2
+      = private java.lang.String e
+  + Field:        f Ljava/lang/String;
+    Access flags: 0x2
+      = private java.lang.String f
+  + Field:        g Ljava/lang/String;
+    Access flags: 0x2
+      = private java.lang.String g
+  + Field:        h Ljava/lang/String;
+    Access flags: 0x2
+      = private java.lang.String h
+  + Field:        i Ljava/lang/String;
+    Access flags: 0x2
+      = private java.lang.String i
+  + Field:        j Ljava/lang/String;
+    Access flags: 0x2
+      = private java.lang.String j
+  + Field:        k Ljava/lang/String;
+    Access flags: 0x2
+      = private java.lang.String k
+  + Field:        l Ljava/lang/String;
+    Access flags: 0x2
+      = private java.lang.String l
+
+Methods (count = 16):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public b()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 11, locals = 1, stack = 2):
+      [0] aload_0 v0
+      [1] invokespecial #17
+        - Methodref [java/lang/Object.<init> ()V]
+      [4] aload_0 v0
+      [5] ldc #1
+        - String []
+      [7] putfield #13
+        - Fieldref [com/lemon/plugin/b.i Ljava/lang/String;]
+      [10] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Ljava/lang/String;)V
+    Access flags: 0x11
+      = public final void a(java.lang.String)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 6, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #5
+        - Fieldref [com/lemon/plugin/b.a Ljava/lang/String;]
+      [5] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       b(Ljava/lang/String;)V
+    Access flags: 0x11
+      = public final void b(java.lang.String)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 6, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #6
+        - Fieldref [com/lemon/plugin/b.b Ljava/lang/String;]
+      [5] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       c(Ljava/lang/String;)V
+    Access flags: 0x11
+      = public final void c(java.lang.String)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 6, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #7
+        - Fieldref [com/lemon/plugin/b.c Ljava/lang/String;]
+      [5] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a()Ljava/lang/String;
+    Access flags: 0x11
+      = public final java.lang.String a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #8
+        - Fieldref [com/lemon/plugin/b.d Ljava/lang/String;]
+      [4] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       d(Ljava/lang/String;)V
+    Access flags: 0x11
+      = public final void d(java.lang.String)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 6, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #8
+        - Fieldref [com/lemon/plugin/b.d Ljava/lang/String;]
+      [5] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       e(Ljava/lang/String;)V
+    Access flags: 0x11
+      = public final void e(java.lang.String)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 6, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #9
+        - Fieldref [com/lemon/plugin/b.e Ljava/lang/String;]
+      [5] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       f(Ljava/lang/String;)V
+    Access flags: 0x11
+      = public final void f(java.lang.String)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 6, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #10
+        - Fieldref [com/lemon/plugin/b.f Ljava/lang/String;]
+      [5] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       g(Ljava/lang/String;)V
+    Access flags: 0x11
+      = public final void g(java.lang.String)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 6, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #11
+        - Fieldref [com/lemon/plugin/b.g Ljava/lang/String;]
+      [5] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       h(Ljava/lang/String;)V
+    Access flags: 0x11
+      = public final void h(java.lang.String)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 6, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #12
+        - Fieldref [com/lemon/plugin/b.h Ljava/lang/String;]
+      [5] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       i(Ljava/lang/String;)V
+    Access flags: 0x11
+      = public final void i(java.lang.String)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 6, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #13
+        - Fieldref [com/lemon/plugin/b.i Ljava/lang/String;]
+      [5] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       j(Ljava/lang/String;)V
+    Access flags: 0x11
+      = public final void j(java.lang.String)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 6, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #14
+        - Fieldref [com/lemon/plugin/b.j Ljava/lang/String;]
+      [5] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       b()Ljava/lang/String;
+    Access flags: 0x11
+      = public final java.lang.String b()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #15
+        - Fieldref [com/lemon/plugin/b.k Ljava/lang/String;]
+      [4] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       k(Ljava/lang/String;)V
+    Access flags: 0x11
+      = public final void k(java.lang.String)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 6, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #15
+        - Fieldref [com/lemon/plugin/b.k Ljava/lang/String;]
+      [5] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       c()Ljava/lang/String;
+    Access flags: 0x11
+      = public final java.lang.String c()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #16
+        - Fieldref [com/lemon/plugin/b.l Ljava/lang/String;]
+      [4] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       l(Ljava/lang/String;)V
+    Access flags: 0x11
+      = public final void l(java.lang.String)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 6, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #16
+        - Fieldref [com/lemon/plugin/b.l Ljava/lang/String;]
+      [5] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/lemon/plugin/c
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x421
+    = public abstract class com.lemon.plugin.c extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 7):
+  - Class [com/lemon/plugin/c]
+  - Class [java/lang/Object]
+  + Utf8 [Landroid/view/View;]
+  + Utf8 [a]
+  + Utf8 [com/lemon/plugin/c]
+  + Utf8 [java/lang/Object]
+
+Fields (count = 1):
+  + Field:        a Landroid/view/View;
+    Access flags: 0x4
+      = protected android.view.View a
+
+Methods (count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/lemon/a/a
+  Superclass:    android/widget/BaseAdapter
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x31
+    = public final class com.lemon.a.a extends android.widget.BaseAdapter
+
+Interfaces (count = 0):
+
+Constant Pool (count = 74):
+  - Integer [2130837504]
+  - Integer [2130903041]
+  - Integer [2131230722]
+  - Class [android/view/LayoutInflater]
+  - Class [android/view/View]
+  - Class [android/widget/BaseAdapter]
+  - Class [android/widget/TextView]
+  - Class [com/lemon/a/a]
+  - Class [com/lemon/plugin/b]
+  - Class [java/util/ArrayList]
+  - Fieldref [com/lemon/a/a.a Landroid/content/Context;]
+  - Fieldref [com/lemon/a/a.b Ljava/util/ArrayList;]
+  - Fieldref [com/lemon/a/a.c Landroid/view/LayoutInflater;]
+  - Methodref [android/view/LayoutInflater.from (Landroid/content/Context;)Landroid/view/LayoutInflater;]
+  - Methodref [android/view/LayoutInflater.inflate (ILandroid/view/ViewGroup;)Landroid/view/View;]
+  - Methodref [android/view/View.findViewById (I)Landroid/view/View;]
+  - Methodref [android/view/View.setBackgroundResource (I)V]
+  - Methodref [android/widget/BaseAdapter.<init> ()V]
+  - Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+  - Methodref [com/lemon/plugin/b.a ()Ljava/lang/String;]
+  - Methodref [java/util/ArrayList.get (I)Ljava/lang/Object;]
+  - Methodref [java/util/ArrayList.size ()I]
+  + NameAndType [<init> ()V]
+  + NameAndType [a ()Ljava/lang/String;]
+  + NameAndType [a Landroid/content/Context;]
+  + NameAndType [b Ljava/util/ArrayList;]
+  + NameAndType [c Landroid/view/LayoutInflater;]
+  + NameAndType [findViewById (I)Landroid/view/View;]
+  + NameAndType [from (Landroid/content/Context;)Landroid/view/LayoutInflater;]
+  + NameAndType [get (I)Ljava/lang/Object;]
+  + NameAndType [inflate (ILandroid/view/ViewGroup;)Landroid/view/View;]
+  + NameAndType [setBackgroundResource (I)V]
+  + NameAndType [setText (Ljava/lang/CharSequence;)V]
+  + NameAndType [size ()I]
+  + Utf8 [()I]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [(I)J]
+  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [(I)Ljava/lang/Object;]
+  + Utf8 [(I)V]
+  + Utf8 [(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;]
+  + Utf8 [(ILandroid/view/ViewGroup;)Landroid/view/View;]
+  + Utf8 [(Landroid/content/Context;)Landroid/view/LayoutInflater;]
+  + Utf8 [(Landroid/content/Context;Ljava/util/ArrayList;)V]
+  + Utf8 [(Ljava/lang/CharSequence;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Landroid/content/Context;]
+  + Utf8 [Landroid/view/LayoutInflater;]
+  + Utf8 [Ljava/util/ArrayList;]
+  + Utf8 [StackMapTable]
+  + Utf8 [a]
+  + Utf8 [android/view/LayoutInflater]
+  + Utf8 [android/view/View]
+  + Utf8 [android/widget/BaseAdapter]
+  + Utf8 [android/widget/TextView]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [com/lemon/a/a]
+  + Utf8 [com/lemon/plugin/b]
+  + Utf8 [findViewById]
+  + Utf8 [from]
+  + Utf8 [get]
+  + Utf8 [getCount]
+  + Utf8 [getItem]
+  + Utf8 [getItemId]
+  + Utf8 [getView]
+  + Utf8 [inflate]
+  + Utf8 [java/util/ArrayList]
+  + Utf8 [setBackgroundResource]
+  + Utf8 [setText]
+  + Utf8 [size]
+
+Fields (count = 3):
+  + Field:        a Landroid/content/Context;
+    Access flags: 0x2
+      = private android.content.Context a
+  + Field:        b Ljava/util/ArrayList;
+    Access flags: 0x2
+      = private java.util.ArrayList b
+  + Field:        c Landroid/view/LayoutInflater;
+    Access flags: 0x2
+      = private android.view.LayoutInflater c
+
+Methods (count = 5):
+  - Method:       <init>(Landroid/content/Context;Ljava/util/ArrayList;)V
+    Access flags: 0x1
+      = public a(android.content.Context,java.util.ArrayList)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 26, locals = 3, stack = 2):
+      [0] aload_0 v0
+      [1] invokespecial #18
+        - Methodref [android/widget/BaseAdapter.<init> ()V]
+      [4] aload_0 v0
+      [5] aload_1 v1
+      [6] putfield #11
+        - Fieldref [com/lemon/a/a.a Landroid/content/Context;]
+      [9] aload_0 v0
+      [10] aload_2 v2
+      [11] putfield #12
+        - Fieldref [com/lemon/a/a.b Ljava/util/ArrayList;]
+      [14] aload_0 v0
+      [15] aload_0 v0
+      [16] getfield #11
+        - Fieldref [com/lemon/a/a.a Landroid/content/Context;]
+      [19] invokestatic #14
+        - Methodref [android/view/LayoutInflater.from (Landroid/content/Context;)Landroid/view/LayoutInflater;]
+      [22] putfield #13
+        - Fieldref [com/lemon/a/a.c Landroid/view/LayoutInflater;]
+      [25] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       getCount()I
+    Access flags: 0x11
+      = public final int getCount()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 8, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #12
+        - Fieldref [com/lemon/a/a.b Ljava/util/ArrayList;]
+      [4] invokevirtual #22
+        - Methodref [java/util/ArrayList.size ()I]
+      [7] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       getItem(I)Ljava/lang/Object;
+    Access flags: 0x11
+      = public final java.lang.Object getItem(int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 9, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] getfield #12
+        - Fieldref [com/lemon/a/a.b Ljava/util/ArrayList;]
+      [4] iload_1 v1
+      [5] invokevirtual #21
+        - Methodref [java/util/ArrayList.get (I)Ljava/lang/Object;]
+      [8] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       getItemId(I)J
+    Access flags: 0x11
+      = public final long getItemId(int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 3, locals = 2, stack = 2):
+      [0] iload_1 v1
+      [1] i2l
+      [2] lreturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;
+    Access flags: 0x11
+      = public final android.view.View getView(int,android.view.View,android.view.ViewGroup)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 51, locals = 4, stack = 3):
+      [0] aload_2 v2
+      [1] ifnonnull +14 (target=15)
+      [4] aload_0 v0
+      [5] getfield #13
+        - Fieldref [com/lemon/a/a.c Landroid/view/LayoutInflater;]
+      [8] ldc #2
+        - Integer [2130903041]
+      [10] aconst_null
+      [11] invokevirtual #15
+        - Methodref [android/view/LayoutInflater.inflate (ILandroid/view/ViewGroup;)Landroid/view/View;]
+      [14] astore_2 v2
+      [15] aload_2 v2
+      [16] ldc #1
+        - Integer [2130837504]
+      [18] iload_1 v1
+      [19] iadd
+      [20] invokevirtual #17
+        - Methodref [android/view/View.setBackgroundResource (I)V]
+      [23] aload_2 v2
+      [24] ldc #3
+        - Integer [2131230722]
+      [26] invokevirtual #16
+        - Methodref [android/view/View.findViewById (I)Landroid/view/View;]
+      [29] checkcast #7
+        - Class [android/widget/TextView]
+      [32] aload_0 v0
+      [33] getfield #12
+        - Fieldref [com/lemon/a/a.b Ljava/util/ArrayList;]
+      [36] iload_1 v1
+      [37] invokevirtual #21
+        - Methodref [java/util/ArrayList.get (I)Ljava/lang/Object;]
+      [40] checkcast #9
+        - Class [com/lemon/plugin/b]
+      [43] invokevirtual #20
+        - Methodref [com/lemon/plugin/b.a ()Ljava/lang/String;]
+      [46] invokevirtual #19
+        - Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+      [49] aload_2 v2
+      [50] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 1):
+        - [15] Var: ..., Stack: (empty)
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/lemon/b/a
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x31
+    = public final class com.lemon.b.a extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 133):
+  - String [UTF-8]
+  - String [authorid]
+  - String [classname]
+  - String [description]
+  - String [filename]
+  - String [icon]
+  - String [id]
+  - String [name]
+  - String [path]
+  - String [plugin]
+  - String [signature]
+  - String [typeid]
+  - String [updateTime]
+  - String [version]
+  - Class [android/util/Xml]
+  - Class [com/lemon/b/a]
+  - Class [com/lemon/plugin/b]
+  - Class [java/io/IOException]
+  - Class [java/io/InputStream]
+  - Class [java/lang/Object]
+  - Class [java/lang/String]
+  - Class [java/lang/Throwable]
+  - Class [java/util/ArrayList]
+  - Class [org/xmlpull/v1/XmlPullParser]
+  - Class [org/xmlpull/v1/XmlPullParserException]
+  - Methodref [android/util/Xml.newPullParser ()Lorg/xmlpull/v1/XmlPullParser;]
+  - Methodref [com/lemon/plugin/b.<init> ()V]
+  - Methodref [com/lemon/plugin/b.a (Ljava/lang/String;)V]
+  - Methodref [com/lemon/plugin/b.b (Ljava/lang/String;)V]
+  - Methodref [com/lemon/plugin/b.c (Ljava/lang/String;)V]
+  - Methodref [com/lemon/plugin/b.d (Ljava/lang/String;)V]
+  - Methodref [com/lemon/plugin/b.e (Ljava/lang/String;)V]
+  - Methodref [com/lemon/plugin/b.f (Ljava/lang/String;)V]
+  - Methodref [com/lemon/plugin/b.g (Ljava/lang/String;)V]
+  - Methodref [com/lemon/plugin/b.h (Ljava/lang/String;)V]
+  - Methodref [com/lemon/plugin/b.i (Ljava/lang/String;)V]
+  - Methodref [com/lemon/plugin/b.j (Ljava/lang/String;)V]
+  - Methodref [com/lemon/plugin/b.k (Ljava/lang/String;)V]
+  - Methodref [com/lemon/plugin/b.l (Ljava/lang/String;)V]
+  - Methodref [java/io/IOException.printStackTrace ()V]
+  - Methodref [java/io/InputStream.close ()V]
+  - Methodref [java/lang/Object.<init> ()V]
+  - Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+  - Methodref [java/util/ArrayList.<init> ()V]
+  - Methodref [java/util/ArrayList.add (Ljava/lang/Object;)Z]
+  - Methodref [org/xmlpull/v1/XmlPullParserException.printStackTrace ()V]
+  - InterfaceMethodref [org/xmlpull/v1/XmlPullParser.getEventType ()I]
+  - InterfaceMethodref [org/xmlpull/v1/XmlPullParser.getName ()Ljava/lang/String;]
+  - InterfaceMethodref [org/xmlpull/v1/XmlPullParser.next ()I]
+  - InterfaceMethodref [org/xmlpull/v1/XmlPullParser.nextText ()Ljava/lang/String;]
+  - InterfaceMethodref [org/xmlpull/v1/XmlPullParser.setInput (Ljava/io/InputStream;Ljava/lang/String;)V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a (Ljava/lang/String;)V]
+  + NameAndType [add (Ljava/lang/Object;)Z]
+  + NameAndType [b (Ljava/lang/String;)V]
+  + NameAndType [c (Ljava/lang/String;)V]
+  + NameAndType [close ()V]
+  + NameAndType [d (Ljava/lang/String;)V]
+  + NameAndType [e (Ljava/lang/String;)V]
+  + NameAndType [equals (Ljava/lang/Object;)Z]
+  + NameAndType [f (Ljava/lang/String;)V]
+  + NameAndType [g (Ljava/lang/String;)V]
+  + NameAndType [getEventType ()I]
+  + NameAndType [getName ()Ljava/lang/String;]
+  + NameAndType [h (Ljava/lang/String;)V]
+  + NameAndType [i (Ljava/lang/String;)V]
+  + NameAndType [j (Ljava/lang/String;)V]
+  + NameAndType [k (Ljava/lang/String;)V]
+  + NameAndType [l (Ljava/lang/String;)V]
+  + NameAndType [newPullParser ()Lorg/xmlpull/v1/XmlPullParser;]
+  + NameAndType [next ()I]
+  + NameAndType [nextText ()Ljava/lang/String;]
+  + NameAndType [printStackTrace ()V]
+  + NameAndType [setInput (Ljava/io/InputStream;Ljava/lang/String;)V]
+  + Utf8 [()I]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()Lorg/xmlpull/v1/XmlPullParser;]
+  + Utf8 [()V]
+  + Utf8 [(Ljava/io/InputStream;)Ljava/util/ArrayList;]
+  + Utf8 [(Ljava/io/InputStream;Ljava/lang/String;)V]
+  + Utf8 [(Ljava/lang/Object;)Z]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [StackMapTable]
+  + Utf8 [UTF-8]
+  + Utf8 [a]
+  + Utf8 [add]
+  + Utf8 [android/util/Xml]
+  + Utf8 [authorid]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [classname]
+  + Utf8 [close]
+  + Utf8 [com/lemon/b/a]
+  + Utf8 [com/lemon/plugin/b]
+  + Utf8 [d]
+  + Utf8 [description]
+  + Utf8 [e]
+  + Utf8 [equals]
+  + Utf8 [f]
+  + Utf8 [filename]
+  + Utf8 [g]
+  + Utf8 [getEventType]
+  + Utf8 [getName]
+  + Utf8 [h]
+  + Utf8 [i]
+  + Utf8 [icon]
+  + Utf8 [id]
+  + Utf8 [j]
+  + Utf8 [java/io/IOException]
+  + Utf8 [java/io/InputStream]
+  + Utf8 [java/lang/Object]
+  + Utf8 [java/lang/String]
+  + Utf8 [java/lang/Throwable]
+  + Utf8 [java/util/ArrayList]
+  + Utf8 [k]
+  + Utf8 [l]
+  + Utf8 [name]
+  + Utf8 [newPullParser]
+  + Utf8 [next]
+  + Utf8 [nextText]
+  + Utf8 [org/xmlpull/v1/XmlPullParser]
+  + Utf8 [org/xmlpull/v1/XmlPullParserException]
+  + Utf8 [path]
+  + Utf8 [plugin]
+  + Utf8 [printStackTrace]
+  + Utf8 [setInput]
+  + Utf8 [signature]
+  + Utf8 [typeid]
+  + Utf8 [updateTime]
+  + Utf8 [version]
+
+Fields (count = 0):
+
+Methods (count = 2):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #42
+        - Methodref [java/lang/Object.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Ljava/io/InputStream;)Ljava/util/ArrayList;
+    Access flags: 0x9
+      = public static java.util.ArrayList a(java.io.InputStream)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 546, locals = 5, stack = 3):
+      [0] aconst_null
+      [1] astore_1 v1
+      [2] invokestatic #26
+        - Methodref [android/util/Xml.newPullParser ()Lorg/xmlpull/v1/XmlPullParser;]
+      [5] astore_3 v3
+      [6] aload_3 v3
+      [7] aload_0 v0
+      [8] ldc #1
+        - String [UTF-8]
+      [10] invokeinterface #51
+        - InterfaceMethodref [org/xmlpull/v1/XmlPullParser.setInput (Ljava/io/InputStream;Ljava/lang/String;)V]
+      [15] aload_3 v3
+      [16] invokeinterface #47
+        - InterfaceMethodref [org/xmlpull/v1/XmlPullParser.getEventType ()I]
+      [21] istore v4
+      [23] goto +441 (target=464)
+      [26] iload v4
+      [28] tableswitch (4 offsets, default=428) (target=456)
+        0: offset = 32, target = 60
+        1: offset = 428, target = 456
+        2: offset = 43, target = 71
+        3: offset = 428, target = 456
+        default: offset = 428, target = 456
+      [60] new #23
+        - Class [java/util/ArrayList]
+      [63] dup
+      [64] invokespecial #44
+        - Methodref [java/util/ArrayList.<init> ()V]
+      [67] astore_1 v1
+      [68] goto +388 (target=456)
+      [71] ldc #10
+        - String [plugin]
+      [73] aload_3 v3
+      [74] invokeinterface #48
+        - InterfaceMethodref [org/xmlpull/v1/XmlPullParser.getName ()Ljava/lang/String;]
+      [79] invokevirtual #43
+        - Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [82] ifeq +374 (target=456)
+      [85] new #17
+        - Class [com/lemon/plugin/b]
+      [88] dup
+      [89] invokespecial #27
+        - Methodref [com/lemon/plugin/b.<init> ()V]
+      [92] astore_2 v2
+      [93] goto +330 (target=423)
+      [96] iload v4
+      [98] iconst_2
+      [99] ificmpne +324 (target=423)
+      [102] ldc #7
+        - String [id]
+      [104] aload_3 v3
+      [105] invokeinterface #48
+        - InterfaceMethodref [org/xmlpull/v1/XmlPullParser.getName ()Ljava/lang/String;]
+      [110] invokevirtual #43
+        - Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [113] ifeq +16 (target=129)
+      [116] aload_2 v2
+      [117] aload_3 v3
+      [118] invokeinterface #50
+        - InterfaceMethodref [org/xmlpull/v1/XmlPullParser.nextText ()Ljava/lang/String;]
+      [123] invokevirtual #28
+        - Methodref [com/lemon/plugin/b.a (Ljava/lang/String;)V]
+      [126] goto +297 (target=423)
+      [129] ldc #2
+        - String [authorid]
+      [131] aload_3 v3
+      [132] invokeinterface #48
+        - InterfaceMethodref [org/xmlpull/v1/XmlPullParser.getName ()Ljava/lang/String;]
+      [137] invokevirtual #43
+        - Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [140] ifeq +16 (target=156)
+      [143] aload_2 v2
+      [144] aload_3 v3
+      [145] invokeinterface #50
+        - InterfaceMethodref [org/xmlpull/v1/XmlPullParser.nextText ()Ljava/lang/String;]
+      [150] invokevirtual #29
+        - Methodref [com/lemon/plugin/b.b (Ljava/lang/String;)V]
+      [153] goto +270 (target=423)
+      [156] ldc #12
+        - String [typeid]
+      [158] aload_3 v3
+      [159] invokeinterface #48
+        - InterfaceMethodref [org/xmlpull/v1/XmlPullParser.getName ()Ljava/lang/String;]
+      [164] invokevirtual #43
+        - Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [167] ifeq +16 (target=183)
+      [170] aload_2 v2
+      [171] aload_3 v3
+      [172] invokeinterface #50
+        - InterfaceMethodref [org/xmlpull/v1/XmlPullParser.nextText ()Ljava/lang/String;]
+      [177] invokevirtual #30
+        - Methodref [com/lemon/plugin/b.c (Ljava/lang/String;)V]
+      [180] goto +243 (target=423)
+      [183] ldc #8
+        - String [name]
+      [185] aload_3 v3
+      [186] invokeinterface #48
+        - InterfaceMethodref [org/xmlpull/v1/XmlPullParser.getName ()Ljava/lang/String;]
+      [191] invokevirtual #43
+        - Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [194] ifeq +16 (target=210)
+      [197] aload_2 v2
+      [198] aload_3 v3
+      [199] invokeinterface #50
+        - InterfaceMethodref [org/xmlpull/v1/XmlPullParser.nextText ()Ljava/lang/String;]
+      [204] invokevirtual #31
+        - Methodref [com/lemon/plugin/b.d (Ljava/lang/String;)V]
+      [207] goto +216 (target=423)
+      [210] ldc #6
+        - String [icon]
+      [212] aload_3 v3
+      [213] invokeinterface #48
+        - InterfaceMethodref [org/xmlpull/v1/XmlPullParser.getName ()Ljava/lang/String;]
+      [218] invokevirtual #43
+        - Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [221] ifeq +16 (target=237)
+      [224] aload_2 v2
+      [225] aload_3 v3
+      [226] invokeinterface #50
+        - InterfaceMethodref [org/xmlpull/v1/XmlPullParser.nextText ()Ljava/lang/String;]
+      [231] invokevirtual #32
+        - Methodref [com/lemon/plugin/b.e (Ljava/lang/String;)V]
+      [234] goto +189 (target=423)
+      [237] ldc #4
+        - String [description]
+      [239] aload_3 v3
+      [240] invokeinterface #48
+        - InterfaceMethodref [org/xmlpull/v1/XmlPullParser.getName ()Ljava/lang/String;]
+      [245] invokevirtual #43
+        - Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [248] ifeq +16 (target=264)
+      [251] aload_2 v2
+      [252] aload_3 v3
+      [253] invokeinterface #50
+        - InterfaceMethodref [org/xmlpull/v1/XmlPullParser.nextText ()Ljava/lang/String;]
+      [258] invokevirtual #33
+        - Methodref [com/lemon/plugin/b.f (Ljava/lang/String;)V]
+      [261] goto +162 (target=423)
+      [264] ldc #13
+        - String [updateTime]
+      [266] aload_3 v3
+      [267] invokeinterface #48
+        - InterfaceMethodref [org/xmlpull/v1/XmlPullParser.getName ()Ljava/lang/String;]
+      [272] invokevirtual #43
+        - Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [275] ifeq +16 (target=291)
+      [278] aload_2 v2
+      [279] aload_3 v3
+      [280] invokeinterface #50
+        - InterfaceMethodref [org/xmlpull/v1/XmlPullParser.nextText ()Ljava/lang/String;]
+      [285] invokevirtual #34
+        - Methodref [com/lemon/plugin/b.g (Ljava/lang/String;)V]
+      [288] goto +135 (target=423)
+      [291] ldc #11
+        - String [signature]
+      [293] aload_3 v3
+      [294] invokeinterface #48
+        - InterfaceMethodref [org/xmlpull/v1/XmlPullParser.getName ()Ljava/lang/String;]
+      [299] invokevirtual #43
+        - Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [302] ifeq +16 (target=318)
+      [305] aload_2 v2
+      [306] aload_3 v3
+      [307] invokeinterface #50
+        - InterfaceMethodref [org/xmlpull/v1/XmlPullParser.nextText ()Ljava/lang/String;]
+      [312] invokevirtual #35
+        - Methodref [com/lemon/plugin/b.h (Ljava/lang/String;)V]
+      [315] goto +108 (target=423)
+      [318] ldc #14
+        - String [version]
+      [320] aload_3 v3
+      [321] invokeinterface #48
+        - InterfaceMethodref [org/xmlpull/v1/XmlPullParser.getName ()Ljava/lang/String;]
+      [326] invokevirtual #43
+        - Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [329] ifeq +16 (target=345)
+      [332] aload_2 v2
+      [333] aload_3 v3
+      [334] invokeinterface #50
+        - InterfaceMethodref [org/xmlpull/v1/XmlPullParser.nextText ()Ljava/lang/String;]
+      [339] invokevirtual #36
+        - Methodref [com/lemon/plugin/b.i (Ljava/lang/String;)V]
+      [342] goto +81 (target=423)
+      [345] ldc #9
+        - String [path]
+      [347] aload_3 v3
+      [348] invokeinterface #48
+        - InterfaceMethodref [org/xmlpull/v1/XmlPullParser.getName ()Ljava/lang/String;]
+      [353] invokevirtual #43
+        - Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [356] ifeq +16 (target=372)
+      [359] aload_2 v2
+      [360] aload_3 v3
+      [361] invokeinterface #50
+        - InterfaceMethodref [org/xmlpull/v1/XmlPullParser.nextText ()Ljava/lang/String;]
+      [366] invokevirtual #37
+        - Methodref [com/lemon/plugin/b.j (Ljava/lang/String;)V]
+      [369] goto +54 (target=423)
+      [372] ldc #5
+        - String [filename]
+      [374] aload_3 v3
+      [375] invokeinterface #48
+        - InterfaceMethodref [org/xmlpull/v1/XmlPullParser.getName ()Ljava/lang/String;]
+      [380] invokevirtual #43
+        - Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [383] ifeq +16 (target=399)
+      [386] aload_2 v2
+      [387] aload_3 v3
+      [388] invokeinterface #50
+        - InterfaceMethodref [org/xmlpull/v1/XmlPullParser.nextText ()Ljava/lang/String;]
+      [393] invokevirtual #38
+        - Methodref [com/lemon/plugin/b.k (Ljava/lang/String;)V]
+      [396] goto +27 (target=423)
+      [399] ldc #3
+        - String [classname]
+      [401] aload_3 v3
+      [402] invokeinterface #48
+        - InterfaceMethodref [org/xmlpull/v1/XmlPullParser.getName ()Ljava/lang/String;]
+      [407] invokevirtual #43
+        - Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [410] ifeq +13 (target=423)
+      [413] aload_2 v2
+      [414] aload_3 v3
+      [415] invokeinterface #50
+        - InterfaceMethodref [org/xmlpull/v1/XmlPullParser.nextText ()Ljava/lang/String;]
+      [420] invokevirtual #39
+        - Methodref [com/lemon/plugin/b.l (Ljava/lang/String;)V]
+      [423] aload_3 v3
+      [424] invokeinterface #49
+        - InterfaceMethodref [org/xmlpull/v1/XmlPullParser.next ()I]
+      [429] dup
+      [430] istore v4
+      [432] iconst_3
+      [433] ificmpne -337 (target=96)
+      [436] ldc #10
+        - String [plugin]
+      [438] aload_3 v3
+      [439] invokeinterface #48
+        - InterfaceMethodref [org/xmlpull/v1/XmlPullParser.getName ()Ljava/lang/String;]
+      [444] invokevirtual #43
+        - Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [447] ifeq -351 (target=96)
+      [450] aload_1 v1
+      [451] aload_2 v2
+      [452] invokevirtual #45
+        - Methodref [java/util/ArrayList.add (Ljava/lang/Object;)Z]
+      [455] pop
+      [456] aload_3 v3
+      [457] invokeinterface #49
+        - InterfaceMethodref [org/xmlpull/v1/XmlPullParser.next ()I]
+      [462] istore v4
+      [464] iload v4
+      [466] iconst_1
+      [467] ificmpne -441 (target=26)
+      [470] goto +60 (target=530)
+      [473] invokevirtual #46
+        - Methodref [org/xmlpull/v1/XmlPullParserException.printStackTrace ()V]
+      [476] aload_0 v0
+      [477] ifnull +67 (target=544)
+      [480] aload_0 v0
+      [481] invokevirtual #41
+        - Methodref [java/io/InputStream.close ()V]
+      [484] goto +60 (target=544)
+      [487] invokevirtual #40
+        - Methodref [java/io/IOException.printStackTrace ()V]
+      [490] goto +54 (target=544)
+      [493] invokevirtual #40
+        - Methodref [java/io/IOException.printStackTrace ()V]
+      [496] aload_0 v0
+      [497] ifnull +47 (target=544)
+      [500] aload_0 v0
+      [501] invokevirtual #41
+        - Methodref [java/io/InputStream.close ()V]
+      [504] goto +40 (target=544)
+      [507] invokevirtual #40
+        - Methodref [java/io/IOException.printStackTrace ()V]
+      [510] goto +34 (target=544)
+      [513] astore_1 v1
+      [514] aload_0 v0
+      [515] ifnull +13 (target=528)
+      [518] aload_0 v0
+      [519] invokevirtual #41
+        - Methodref [java/io/InputStream.close ()V]
+      [522] goto +6 (target=528)
+      [525] invokevirtual #40
+        - Methodref [java/io/IOException.printStackTrace ()V]
+      [528] aload_1 v1
+      [529] athrow
+      [530] aload_0 v0
+      [531] ifnull +13 (target=544)
+      [534] aload_0 v0
+      [535] invokevirtual #41
+        - Methodref [java/io/InputStream.close ()V]
+      [538] goto +6 (target=544)
+      [541] invokevirtual #40
+        - Methodref [java/io/IOException.printStackTrace ()V]
+      [544] aload_1 v1
+      [545] areturn
+      Code attribute exceptions (count = 8):
+      - ExceptionInfo (6 -> 470: 473):
+      - Class [org/xmlpull/v1/XmlPullParserException]
+      - ExceptionInfo (480 -> 484: 487):
+      - Class [java/io/IOException]
+      - ExceptionInfo (6 -> 470: 493):
+      - Class [java/io/IOException]
+      - ExceptionInfo (500 -> 504: 507):
+      - Class [java/io/IOException]
+      - ExceptionInfo (6 -> 476: 513):
+      - ExceptionInfo (493 -> 496: 513):
+      - ExceptionInfo (518 -> 522: 525):
+      - Class [java/io/IOException]
+      - ExceptionInfo (534 -> 538: 541):
+      - Class [java/io/IOException]
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 36):
+        - [26] Var: [a:com/lemon/b/a][a:java/io/InputStream][a:java/util/ArrayList][a:com/lemon/plugin/b][a:org/xmlpull/v1/XmlPullParser][i], Stack: 
+        - [60] Var: ..., Stack: (empty)
+        - [71] Var: ..., Stack: (empty)
+        - [96] Var: ..., Stack: (empty)
+        - [129] Var: ..., Stack: (empty)
+        - [156] Var: ..., Stack: (empty)
+        - [183] Var: ..., Stack: (empty)
+        - [210] Var: ..., Stack: (empty)
+        - [237] Var: ..., Stack: (empty)
+        - [264] Var: ..., Stack: (empty)
+        - [291] Var: ..., Stack: (empty)
+        - [318] Var: ..., Stack: (empty)
+        - [345] Var: ..., Stack: (empty)
+        - [372] Var: ..., Stack: (empty)
+        - [399] Var: ..., Stack: (empty)
+        - [423] Var: ..., Stack: (empty)
+        - [430] Var: ..., Stack: (empty)
+        - [456] Var: ..., Stack: (empty)
+        - [456] Var: ..., Stack: (empty)
+        - [464] Var: ..., Stack: (empty)
+        - [473] Var: [a:com/lemon/b/a][a:java/io/InputStream][a:java/util/ArrayList][a:com/lemon/plugin/b][a:org/xmlpull/v1/XmlPullParser], Stack: [a:org/xmlpull/v1/XmlPullParserException]
+        - [487] Var: ..., Stack: [a:java/io/IOException]
+        - [490] Var: ..., Stack: (empty)
+        - [490] Var: ..., Stack: (empty)
+        - [493] Var: ..., Stack: [a:java/io/IOException]
+        - [507] Var: ..., Stack: [a:java/io/IOException]
+        - [510] Var: ..., Stack: (empty)
+        - [510] Var: ..., Stack: (empty)
+        - [513] Var: ..., Stack: [a:java/lang/Throwable]
+        - [525] Var: [a:com/lemon/b/a][a:java/io/InputStream][a:java/util/ArrayList][a:com/lemon/plugin/b][a:org/xmlpull/v1/XmlPullParser][T][a:java/lang/Throwable], Stack: [a:java/io/IOException]
+        - [528] Var: ..., Stack: (empty)
+        - [528] Var: ..., Stack: (empty)
+        - [530] Var: [a:com/lemon/b/a][a:java/io/InputStream][a:java/util/ArrayList][a:com/lemon/plugin/b][a:org/xmlpull/v1/XmlPullParser], Stack: 
+        - [541] Var: ..., Stack: [a:java/io/IOException]
+        - [544] Var: ..., Stack: (empty)
+        - [544] Var: ..., Stack: (empty)
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/lemon/c/a
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x31
+    = public final class com.lemon.c.a extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 160):
+  - String []
+  - String [line.separator]
+  - String [mounted]
+  - String [plugins]
+  - String [tmp_plugin.jar]
+  - String [www.kaixinai.com]
+  - Class [[B]
+  - Class [android/content/Context]
+  - Class [android/os/Environment]
+  - Class [com/lemon/LemonApp]
+  - Class [com/lemon/c/a]
+  - Class [java/io/File]
+  - Class [java/io/FileOutputStream]
+  - Class [java/io/IOException]
+  - Class [java/io/InputStream]
+  - Class [java/lang/Object]
+  - Class [java/lang/String]
+  - Class [java/lang/StringBuilder]
+  - Class [java/lang/System]
+  - Fieldref [com/lemon/c/a.a Ljava/lang/String;]
+  - Fieldref [com/lemon/c/a.b Ljava/lang/String;]
+  - Fieldref [com/lemon/c/a.c Ljava/lang/String;]
+  - Fieldref [com/lemon/c/a.d Ljava/lang/String;]
+  - Fieldref [com/lemon/c/a.e Ljava/lang/String;]
+  - Fieldref [com/lemon/c/a.f Ljava/lang/String;]
+  - Fieldref [com/lemon/c/a.g Ljava/lang/String;]
+  - Fieldref [com/lemon/c/a.h Ljava/lang/String;]
+  - Fieldref [com/lemon/c/a.i Ljava/lang/String;]
+  - Fieldref [java/io/File.separator Ljava/lang/String;]
+  - Methodref [android/content/Context.getFilesDir ()Ljava/io/File;]
+  - Methodref [android/os/Environment.getExternalStorageDirectory ()Ljava/io/File;]
+  - Methodref [android/os/Environment.getExternalStorageState ()Ljava/lang/String;]
+  - Methodref [com/lemon/LemonApp.a ()Lcom/lemon/LemonApp;]
+  - Methodref [com/lemon/LemonApp.getApplicationContext ()Landroid/content/Context;]
+  - Methodref [com/lemon/c/a.b (Ljava/lang/String;)Z]
+  - Methodref [java/io/File.<init> (Ljava/lang/String;)V]
+  - Methodref [java/io/File.createNewFile ()Z]
+  - Methodref [java/io/File.exists ()Z]
+  - Methodref [java/io/File.getAbsolutePath ()Ljava/lang/String;]
+  - Methodref [java/io/File.getParentFile ()Ljava/io/File;]
+  - Methodref [java/io/File.getPath ()Ljava/lang/String;]
+  - Methodref [java/io/File.mkdirs ()Z]
+  - Methodref [java/io/FileOutputStream.<init> (Ljava/lang/String;)V]
+  - Methodref [java/io/FileOutputStream.close ()V]
+  - Methodref [java/io/FileOutputStream.flush ()V]
+  - Methodref [java/io/FileOutputStream.write ([BII)V]
+  - Methodref [java/io/IOException.printStackTrace ()V]
+  - Methodref [java/io/InputStream.close ()V]
+  - Methodref [java/io/InputStream.read ([B)I]
+  - Methodref [java/lang/Object.<init> ()V]
+  - Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+  - Methodref [java/lang/String.valueOf (Ljava/lang/Object;)Ljava/lang/String;]
+  - Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+  - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+  - Methodref [java/lang/System.getProperty (Ljava/lang/String;)Ljava/lang/String;]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Ljava/lang/String;)V]
+  + NameAndType [a ()Lcom/lemon/LemonApp;]
+  + NameAndType [a Ljava/lang/String;]
+  + NameAndType [append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + NameAndType [b (Ljava/lang/String;)Z]
+  + NameAndType [b Ljava/lang/String;]
+  + NameAndType [c Ljava/lang/String;]
+  + NameAndType [close ()V]
+  + NameAndType [createNewFile ()Z]
+  + NameAndType [d Ljava/lang/String;]
+  + NameAndType [e Ljava/lang/String;]
+  + NameAndType [equals (Ljava/lang/Object;)Z]
+  + NameAndType [exists ()Z]
+  + NameAndType [f Ljava/lang/String;]
+  + NameAndType [flush ()V]
+  + NameAndType [g Ljava/lang/String;]
+  + NameAndType [getAbsolutePath ()Ljava/lang/String;]
+  + NameAndType [getApplicationContext ()Landroid/content/Context;]
+  + NameAndType [getExternalStorageDirectory ()Ljava/io/File;]
+  + NameAndType [getExternalStorageState ()Ljava/lang/String;]
+  + NameAndType [getFilesDir ()Ljava/io/File;]
+  + NameAndType [getParentFile ()Ljava/io/File;]
+  + NameAndType [getPath ()Ljava/lang/String;]
+  + NameAndType [getProperty (Ljava/lang/String;)Ljava/lang/String;]
+  + NameAndType [h Ljava/lang/String;]
+  + NameAndType [i Ljava/lang/String;]
+  + NameAndType [mkdirs ()Z]
+  + NameAndType [printStackTrace ()V]
+  + NameAndType [read ([B)I]
+  + NameAndType [separator Ljava/lang/String;]
+  + NameAndType [toString ()Ljava/lang/String;]
+  + NameAndType [valueOf (Ljava/lang/Object;)Ljava/lang/String;]
+  + NameAndType [write ([BII)V]
+  + Utf8 []
+  + Utf8 [()Landroid/content/Context;]
+  + Utf8 [()Lcom/lemon/LemonApp;]
+  + Utf8 [()Ljava/io/File;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [()Z]
+  + Utf8 [(Ljava/lang/Object;)Ljava/lang/String;]
+  + Utf8 [(Ljava/lang/Object;)Z]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/String;]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [(Ljava/lang/String;)Z]
+  + Utf8 [(Ljava/lang/String;Ljava/io/InputStream;)Z]
+  + Utf8 [([B)I]
+  + Utf8 [([BII)V]
+  + Utf8 [<clinit>]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Ljava/lang/String;]
+  + Utf8 [StackMapTable]
+  + Utf8 [[B]
+  + Utf8 [a]
+  + Utf8 [android/content/Context]
+  + Utf8 [android/os/Environment]
+  + Utf8 [append]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [close]
+  + Utf8 [com/lemon/LemonApp]
+  + Utf8 [com/lemon/c/a]
+  + Utf8 [createNewFile]
+  + Utf8 [d]
+  + Utf8 [e]
+  + Utf8 [equals]
+  + Utf8 [exists]
+  + Utf8 [f]
+  + Utf8 [flush]
+  + Utf8 [g]
+  + Utf8 [getAbsolutePath]
+  + Utf8 [getApplicationContext]
+  + Utf8 [getExternalStorageDirectory]
+  + Utf8 [getExternalStorageState]
+  + Utf8 [getFilesDir]
+  + Utf8 [getParentFile]
+  + Utf8 [getPath]
+  + Utf8 [getProperty]
+  + Utf8 [h]
+  + Utf8 [i]
+  + Utf8 [java/io/File]
+  + Utf8 [java/io/FileOutputStream]
+  + Utf8 [java/io/IOException]
+  + Utf8 [java/io/InputStream]
+  + Utf8 [java/lang/Object]
+  + Utf8 [java/lang/String]
+  + Utf8 [java/lang/StringBuilder]
+  + Utf8 [java/lang/System]
+  + Utf8 [line.separator]
+  + Utf8 [mkdirs]
+  + Utf8 [mounted]
+  + Utf8 [plugins]
+  + Utf8 [printStackTrace]
+  + Utf8 [read]
+  + Utf8 [separator]
+  + Utf8 [tmp_plugin.jar]
+  + Utf8 [toString]
+  + Utf8 [valueOf]
+  + Utf8 [write]
+  + Utf8 [www.kaixinai.com]
+
+Fields (count = 9):
+  + Field:        d Ljava/lang/String;
+    Access flags: 0xa
+      = private static java.lang.String d
+  + Field:        a Ljava/lang/String;
+    Access flags: 0x9
+      = public static java.lang.String a
+  + Field:        e Ljava/lang/String;
+    Access flags: 0xa
+      = private static java.lang.String e
+  + Field:        f Ljava/lang/String;
+    Access flags: 0xa
+      = private static java.lang.String f
+  + Field:        g Ljava/lang/String;
+    Access flags: 0xa
+      = private static java.lang.String g
+  + Field:        h Ljava/lang/String;
+    Access flags: 0xa
+      = private static java.lang.String h
+  + Field:        b Ljava/lang/String;
+    Access flags: 0x9
+      = public static java.lang.String b
+  + Field:        i Ljava/lang/String;
+    Access flags: 0xa
+      = private static java.lang.String i
+  + Field:        c Ljava/lang/String;
+    Access flags: 0x9
+      = public static java.lang.String c
+
+Methods (count = 5):
+  - Method:       <clinit>()V
+    Access flags: 0x8
+      = static void <clinit>()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 166, locals = 0, stack = 3):
+      [0] invokestatic #31
+        - Methodref [android/os/Environment.getExternalStorageDirectory ()Ljava/io/File;]
+      [3] invokevirtual #41
+        - Methodref [java/io/File.getPath ()Ljava/lang/String;]
+      [6] putstatic #23
+        - Fieldref [com/lemon/c/a.d Ljava/lang/String;]
+      [9] invokestatic #33
+        - Methodref [com/lemon/LemonApp.a ()Lcom/lemon/LemonApp;]
+      [12] invokevirtual #34
+        - Methodref [com/lemon/LemonApp.getApplicationContext ()Landroid/content/Context;]
+      [15] invokevirtual #30
+        - Methodref [android/content/Context.getFilesDir ()Ljava/io/File;]
+      [18] invokevirtual #39
+        - Methodref [java/io/File.getAbsolutePath ()Ljava/lang/String;]
+      [21] putstatic #20
+        - Fieldref [com/lemon/c/a.a Ljava/lang/String;]
+      [24] ldc #1
+        - String []
+      [26] putstatic #24
+        - Fieldref [com/lemon/c/a.e Ljava/lang/String;]
+      [29] invokestatic #32
+        - Methodref [android/os/Environment.getExternalStorageState ()Ljava/lang/String;]
+      [32] ldc #3
+        - String [mounted]
+      [34] invokevirtual #51
+        - Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [37] ifeq +12 (target=49)
+      [40] getstatic #23
+        - Fieldref [com/lemon/c/a.d Ljava/lang/String;]
+      [43] putstatic #24
+        - Fieldref [com/lemon/c/a.e Ljava/lang/String;]
+      [46] goto +9 (target=55)
+      [49] getstatic #20
+        - Fieldref [com/lemon/c/a.a Ljava/lang/String;]
+      [52] putstatic #24
+        - Fieldref [com/lemon/c/a.e Ljava/lang/String;]
+      [55] getstatic #29
+        - Fieldref [java/io/File.separator Ljava/lang/String;]
+      [58] putstatic #25
+        - Fieldref [com/lemon/c/a.f Ljava/lang/String;]
+      [61] ldc #2
+        - String [line.separator]
+      [63] invokestatic #56
+        - Methodref [java/lang/System.getProperty (Ljava/lang/String;)Ljava/lang/String;]
+      [66] putstatic #26
+        - Fieldref [com/lemon/c/a.g Ljava/lang/String;]
+      [69] ldc #6
+        - String [www.kaixinai.com]
+      [71] putstatic #27
+        - Fieldref [com/lemon/c/a.h Ljava/lang/String;]
+      [74] new #18
+        - Class [java/lang/StringBuilder]
+      [77] dup
+      [78] getstatic #25
+        - Fieldref [com/lemon/c/a.f Ljava/lang/String;]
+      [81] invokestatic #52
+        - Methodref [java/lang/String.valueOf (Ljava/lang/Object;)Ljava/lang/String;]
+      [84] invokespecial #53
+        - Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+      [87] getstatic #27
+        - Fieldref [com/lemon/c/a.h Ljava/lang/String;]
+      [90] invokevirtual #54
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [93] getstatic #25
+        - Fieldref [com/lemon/c/a.f Ljava/lang/String;]
+      [96] invokevirtual #54
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [99] ldc #4
+        - String [plugins]
+      [101] invokevirtual #54
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [104] getstatic #25
+        - Fieldref [com/lemon/c/a.f Ljava/lang/String;]
+      [107] invokevirtual #54
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [110] invokevirtual #55
+        - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [113] putstatic #21
+        - Fieldref [com/lemon/c/a.b Ljava/lang/String;]
+      [116] new #18
+        - Class [java/lang/StringBuilder]
+      [119] dup
+      [120] getstatic #21
+        - Fieldref [com/lemon/c/a.b Ljava/lang/String;]
+      [123] invokestatic #52
+        - Methodref [java/lang/String.valueOf (Ljava/lang/Object;)Ljava/lang/String;]
+      [126] invokespecial #53
+        - Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+      [129] ldc #5
+        - String [tmp_plugin.jar]
+      [131] invokevirtual #54
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [134] invokevirtual #55
+        - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [137] putstatic #28
+        - Fieldref [com/lemon/c/a.i Ljava/lang/String;]
+      [140] new #18
+        - Class [java/lang/StringBuilder]
+      [143] dup
+      [144] getstatic #20
+        - Fieldref [com/lemon/c/a.a Ljava/lang/String;]
+      [147] invokestatic #52
+        - Methodref [java/lang/String.valueOf (Ljava/lang/Object;)Ljava/lang/String;]
+      [150] invokespecial #53
+        - Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+      [153] getstatic #21
+        - Fieldref [com/lemon/c/a.b Ljava/lang/String;]
+      [156] invokevirtual #54
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [159] invokevirtual #55
+        - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [162] putstatic #22
+        - Fieldref [com/lemon/c/a.c Ljava/lang/String;]
+      [165] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 2):
+        - [49] Var: ..., Stack: (empty)
+        - [55] Var: ..., Stack: (empty)
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #50
+        - Methodref [java/lang/Object.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Ljava/lang/String;Ljava/io/InputStream;)Z
+    Access flags: 0x9
+      = public static boolean a(java.lang.String,java.io.InputStream)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 60, locals = 4, stack = 4):
+      [0] aload_0 v0
+      [1] invokestatic #35
+        - Methodref [com/lemon/c/a.b (Ljava/lang/String;)Z]
+      [4] pop
+      [5] new #13
+        - Class [java/io/FileOutputStream]
+      [8] dup
+      [9] aload_0 v0
+      [10] invokespecial #43
+        - Methodref [java/io/FileOutputStream.<init> (Ljava/lang/String;)V]
+      [13] astore_0 v0
+      [14] sipush 1024
+      [17] newarray 8
+      [19] astore_3 v3
+      [20] goto +10 (target=30)
+      [23] aload_0 v0
+      [24] aload_3 v3
+      [25] iconst_0
+      [26] iload_2 v2
+      [27] invokevirtual #46
+        - Methodref [java/io/FileOutputStream.write ([BII)V]
+      [30] aload_1 v1
+      [31] aload_3 v3
+      [32] invokevirtual #49
+        - Methodref [java/io/InputStream.read ([B)I]
+      [35] dup
+      [36] istore_2 v2
+      [37] iconst_m1
+      [38] ificmpne -15 (target=23)
+      [41] aload_0 v0
+      [42] invokevirtual #45
+        - Methodref [java/io/FileOutputStream.flush ()V]
+      [45] aload_0 v0
+      [46] invokevirtual #44
+        - Methodref [java/io/FileOutputStream.close ()V]
+      [49] aload_1 v1
+      [50] invokevirtual #48
+        - Methodref [java/io/InputStream.close ()V]
+      [53] iconst_1
+      [54] ireturn
+      [55] invokevirtual #47
+        - Methodref [java/io/IOException.printStackTrace ()V]
+      [58] iconst_0
+      [59] ireturn
+      Code attribute exceptions (count = 2):
+      - ExceptionInfo (0 -> 5: 55):
+      - Class [java/io/IOException]
+      - ExceptionInfo (5 -> 53: 55):
+      - Class [java/io/IOException]
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 4):
+        - [5] Var: ..., Stack: (empty)
+        - [23] Var: [a:java/lang/String][a:java/io/InputStream][a:java/io/FileOutputStream][i][i][a:[B], Stack: 
+        - [30] Var: ..., Stack: (empty)
+        - [55] Var: [a:java/lang/String][a:java/io/InputStream], Stack: [a:java/io/IOException]
+  + Method:       a(Ljava/lang/String;)Z
+    Access flags: 0x9
+      = public static boolean a(java.lang.String)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 12, locals = 1, stack = 3):
+      [0] new #12
+        - Class [java/io/File]
+      [3] dup
+      [4] aload_0 v0
+      [5] invokespecial #36
+        - Methodref [java/io/File.<init> (Ljava/lang/String;)V]
+      [8] invokevirtual #38
+        - Methodref [java/io/File.exists ()Z]
+      [11] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       b(Ljava/lang/String;)Z
+    Access flags: 0xa
+      = private static boolean b(java.lang.String)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 47, locals = 1, stack = 3):
+      [0] new #12
+        - Class [java/io/File]
+      [3] dup
+      [4] aload_0 v0
+      [5] invokespecial #36
+        - Methodref [java/io/File.<init> (Ljava/lang/String;)V]
+      [8] dup
+      [9] astore_0 v0
+      [10] invokevirtual #38
+        - Methodref [java/io/File.exists ()Z]
+      [13] ifne +32 (target=45)
+      [16] aload_0 v0
+      [17] invokevirtual #40
+        - Methodref [java/io/File.getParentFile ()Ljava/io/File;]
+      [20] invokevirtual #38
+        - Methodref [java/io/File.exists ()Z]
+      [23] ifne +11 (target=34)
+      [26] aload_0 v0
+      [27] invokevirtual #40
+        - Methodref [java/io/File.getParentFile ()Ljava/io/File;]
+      [30] invokevirtual #42
+        - Methodref [java/io/File.mkdirs ()Z]
+      [33] pop
+      [34] aload_0 v0
+      [35] invokevirtual #37
+        - Methodref [java/io/File.createNewFile ()Z]
+      [38] pop
+      [39] goto +6 (target=45)
+      [42] invokevirtual #47
+        - Methodref [java/io/IOException.printStackTrace ()V]
+      [45] iconst_1
+      [46] ireturn
+      Code attribute exceptions (count = 1):
+      - ExceptionInfo (0 -> 39: 42):
+      - Class [java/io/IOException]
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 4):
+        - [34] Var: ...[a:java/io/File], Stack: (empty)
+        - [39] Var: ..., Stack: (empty)
+        - [42] Var: [a:java/lang/String], Stack: [a:java/io/IOException]
+        - [45] Var: ..., Stack: (empty)
+
+Class file attributes (count = 0):
+
