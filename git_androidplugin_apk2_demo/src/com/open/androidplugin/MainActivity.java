@@ -23,6 +23,7 @@ import com.open.androidplugin.plugin.PluginBean;
 import com.open.androidplugin.plugin.PluginUI;
 import com.open.androidplugin.util.FileUtil;
 import com.open.androidplugin.xmlparser.PluginListParser;
+import com.open.plugindemo.R;
 
 public class MainActivity extends Activity {
 	
@@ -65,25 +66,27 @@ public class MainActivity extends Activity {
     private void searchPlugins()
     {
         AssetManager am = this.getResources().getAssets();
-        try {
-    		String[] plugins=am.list("jar");
+    	try {
+    		
+    		String[] plugins=am.list("apk");
     		for(String filename:plugins)
     		{
-            	try {
-    				InputStream is =am.open("jar/"+filename);
-    				if(null!=is)
+    			PluginBean item=new PluginBean();
+    			item.setFileName(filename);
+    			item.setClassName("com.open.androidplugin.plugin1.ImagePlugin");
+    			list.add(item);
+    			
+    			InputStream is =am.open("apk/"+filename);
+    			if(null!=is)
+    			{
+    				if(!FileUtil.isFileExist(FileUtil.PLUGIN_PATH_SD+filename))
     				{
-    					if(!FileUtil.isFileExist(FileUtil.PLUGIN_PATH+filename))
-    					{
-    						FileUtil.writeFile(FileUtil.PLUGIN_PATH+filename, is);
-    					}
+    					FileUtil.writeFile(FileUtil.PLUGIN_PATH_SD+filename, is);
     				}
-    			} catch (IOException e) {
-    				e.printStackTrace();
     			}
     		}
-		} catch (Exception e) {
-			// TODO: handle exception
+		} catch (IOException e) {
+			e.printStackTrace();
 		}
     }
     

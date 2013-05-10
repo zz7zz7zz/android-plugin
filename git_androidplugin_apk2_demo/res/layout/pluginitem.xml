@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout 
+		xmlns:android="http://schemas.android.com/apk/res/android" 
+		android:layout_width="80.0dip"
+		android:layout_height="80.0dip">
+		<TextView 
+			android:id="@+id/pluginname"
+			android:layout_width="fill_parent"
+			android:layout_height="22dp"
+			android:layout_alignParentBottom="true"
+			android:gravity="center_horizontal"
+			android:background="@color/translucent"
+			android:textSize="16sp"
+			android:textColor="@color/white">
+		</TextView>
+</RelativeLayout>
