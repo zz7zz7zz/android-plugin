@@ -18,13 +18,13 @@ public class PluginMgr {
 		
 		for(PackageInfo pkg	:pkgs)
 		{
-			//包名
 			String packageName=pkg.packageName;
 			String sharedUserId= pkg.sharedUserId;
 			
-			//sharedUserId是开发时约定好的，这样判断是否为自己人
 			if(!"com.open.plugin.shareUserId".equals(sharedUserId)||"com.open.plugindemo".equals(packageName))
+			{
 				continue;
+			}
 			
 			AbstractPlugin plug=new AbstractPlugin();
 			plug.name=pm.getApplicationLabel(pkg.applicationInfo).toString();
