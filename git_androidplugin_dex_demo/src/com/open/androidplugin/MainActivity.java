@@ -72,7 +72,7 @@ public class MainActivity extends Activity {
         	String filename=list.get(i).getFileName();
         	try {
 				InputStream is =am.open("jar/"+filename);
-				if(null!=is)am.list("jar");
+				if(null!=is)
 				{
 					if(!FileUtil.isFileExist(FileUtil.PLUGIN_PATH+filename))
 					{

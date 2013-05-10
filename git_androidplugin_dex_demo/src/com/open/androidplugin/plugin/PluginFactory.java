@@ -30,8 +30,6 @@ public final class PluginFactory {
 	{
 		AbstractPlugin mParentPlugin=null;
 		
-		FileUtil.PLUGIN_PATH=FileUtil.LOCAL_PATH+FileUtil.SUFFIX_PLUGIN_PATH;
-		
 		File pluginFile=new File(FileUtil.PLUGIN_PATH+plugin.getFileName());
 		
 		if(pluginFile.exists())

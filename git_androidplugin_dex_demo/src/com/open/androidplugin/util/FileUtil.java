@@ -50,15 +50,13 @@ public final class FileUtil {
 	public static String NEWLINE=System.getProperty("line.separator");
 	
 	/**程序的根目录*/
-	public static String APPROOT="www.kaixinai.com";
+	public static String APPROOT="pluginroot";
 	
 	//------------------------------------插件相关的目录以及路径--------------------------------------------
 	/**插件的存放目录*/
 	public static String SUFFIX_PLUGIN_PATH=FILESPARATOR+APPROOT+FILESPARATOR+"plugins"+FILESPARATOR;
-	/**插件JAR的临时文件*/
-	public static String SUFFIX_PLUGIN_PATH_TMP_JAR=SUFFIX_PLUGIN_PATH+"tmp_plugin.jar";
-	
 	public static String PLUGIN_PATH=LOCAL_PATH+SUFFIX_PLUGIN_PATH;
+	public static String PLUGIN_PATH_SD=SDCARD_PAHT+SUFFIX_PLUGIN_PATH;
 	
 	//------------------------------------文件的相关方法--------------------------------------------
 	/**
