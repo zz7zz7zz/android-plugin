@@ -49,8 +49,6 @@ public class MainActivity extends Activity {
 			@Override
 			public void onItemClick(AdapterView<?> parent, View view,int position, long id) 
 			{
-//				Toast.makeText(MainActivity.this, ""+position+"\n"+list.get(position).getmPath()+"\n"+list.get(position).getmClassName(), Toast.LENGTH_LONG).show();
-
 				Intent mIntent=new Intent(MainActivity.this,PluginUI.class);
 				Bundle mBundle = new Bundle();  
 		        mBundle.putSerializable("plugin",list.get(position));  
