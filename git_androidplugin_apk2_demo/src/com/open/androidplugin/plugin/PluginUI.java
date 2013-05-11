@@ -12,7 +12,7 @@ import android.view.View;
 import android.view.Window;
 import android.widget.Toast;
 
-import com.open.plugindemo.R;
+import com.open.androidplugin.R;
 
 /**
  * @author yanglonghui

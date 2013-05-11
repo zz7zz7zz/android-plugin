@@ -30,11 +30,11 @@ public final class PluginFactory {
 	{
 		AbstractPlugin mParentPlugin=null;
 		
-		File pluginFile=new File(FileUtil.PLUGIN_PATH+plugin.getFileName());
+		File pluginFile=new File(FileUtil.PLUGIN_PATH_SD+plugin.getFileName());
 		
 		if(pluginFile.exists())
 		{
-			DexClassLoader mDexClassLoader=new DexClassLoader(pluginFile.toString(), FileUtil.PLUGIN_PATH, null, context.getClass().getClassLoader());
+			DexClassLoader mDexClassLoader=new DexClassLoader(pluginFile.toString(), FileUtil.PLUGIN_PATH_SD, null, context.getClass().getClassLoader());
 			if(null!=mDexClassLoader)
 			{
 				try {

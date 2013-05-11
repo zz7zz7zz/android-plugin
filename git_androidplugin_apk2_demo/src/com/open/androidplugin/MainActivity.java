@@ -23,7 +23,6 @@ import com.open.androidplugin.plugin.PluginBean;
 import com.open.androidplugin.plugin.PluginUI;
 import com.open.androidplugin.util.FileUtil;
 import com.open.androidplugin.xmlparser.PluginListParser;
-import com.open.plugindemo.R;
 
 public class MainActivity extends Activity {
 	
@@ -71,11 +70,6 @@ public class MainActivity extends Activity {
     		String[] plugins=am.list("apk");
     		for(String filename:plugins)
     		{
-    			PluginBean item=new PluginBean();
-    			item.setFileName(filename);
-    			item.setClassName("com.open.androidplugin.plugin1.ImagePlugin");
-    			list.add(item);
-    			
     			InputStream is =am.open("apk/"+filename);
     			if(null!=is)
     			{
