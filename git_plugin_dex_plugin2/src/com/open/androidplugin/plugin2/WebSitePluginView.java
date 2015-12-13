@@ -6,8 +6,10 @@ package com.open.androidplugin.plugin2;
 import android.content.Context;
 import android.util.AttributeSet;
 import android.view.View;
+import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
+import android.webkit.WebViewClient;
 import android.widget.LinearLayout;
 
 /**
@@ -39,6 +41,15 @@ public class WebSitePluginView extends LinearLayout {
 		mWebSettings.setSupportZoom(true);
 		mWebSettings.setBuiltInZoomControls(true);// 设置支持缩放
 		mWebSettings.setCacheMode(WebSettings.LOAD_NO_CACHE);
+		mWebView.setWebViewClient(new WebViewClient(){
+
+			@Override
+			public boolean shouldOverrideUrlLoading(WebView view, String url) {
+				view.loadUrl(url);     
+				return true; 
+			}
+			
+		});
 		mWebView.loadUrl("http://www.baidu.com"); 
 
 		this.addView(mWebView,new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT));

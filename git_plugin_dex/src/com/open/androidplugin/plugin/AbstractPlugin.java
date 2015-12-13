@@ -7,6 +7,7 @@ import android.content.Context;
 import android.os.Bundle;
 
 /**
+ * 打包命令 dx --dex --verbose --output=plugin.out.jar plugin.jar
  * @author yanglonghui
  *
  */
