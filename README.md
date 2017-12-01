@@ -3,9 +3,9 @@ Android plugin
 
 ## 一、说明
     
-    android利用插件化进行程序扩展
+    Android利用插件化进行程序扩展
     1.apk做为插件的实现方式</br>
-    3.dex作为插件的实现方式</br>
+    2.dex作为插件的实现方式</br>
 
 
 ## 二、效果展示 
