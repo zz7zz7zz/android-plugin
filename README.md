@@ -10,7 +10,9 @@ Android plugin
 
 ## 二、效果展示 
 
-![](http://img.blog.csdn.net/20130511213657324 "附图一") ![](http://img.blog.csdn.net/20130511213742678 "附图二") ![](http://img.blog.csdn.net/20130511213908054 "附图三") ![](http://img.blog.csdn.net/20130511213912285 "附图四")
+运行图：依次是(主界面-->图片插件->导航插件-->游戏插件)
+
+![github](https://github.com/zz7zz7zz/android-plugin/blob/master/1.jpg "附图一")
 
 
 
